@@ -1,0 +1,860 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>intern</Author>
+  <LastAuthor>user</LastAuthor>
+  <Created>2008-07-23T14:08:12Z</Created>
+  <LastSaved>2009-11-19T21:37:30Z</LastSaved>
+  <Company>MOFTB</Company>
+  <Version>10.6858</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="file:///\\"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8445</WindowHeight>
+  <WindowWidth>11355</WindowWidth>
+  <WindowTopX>480</WindowTopX>
+  <WindowTopY>45</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21" ss:Name="Hyperlink">
+   <Font ss:Color="#0000FF" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Font x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s27">
+   <Font x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s28" ss:Parent="s21">
+   <Font x:Family="Swiss" ss:Color="#0000FF" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Font/>
+  </Style>
+  <Style ss:ID="s31">
+   <Font x:Family="Swiss"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s32">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font x:Family="Swiss"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s33" ss:Parent="s21">
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s34">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s35">
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s36">
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s37">
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s38">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s39" ss:Parent="s21">
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s40">
+   <Font x:Family="Swiss"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s41">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font x:Family="Swiss"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s42">
+   <Font x:Family="Swiss"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="57" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:Width="240"/>
+   <Column ss:Width="177.75"/>
+   <Column ss:StyleID="s23" ss:AutoFitWidth="0" ss:Width="60.75"/>
+   <Column ss:StyleID="s23" ss:AutoFitWidth="0" ss:Width="81"/>
+   <Column ss:Width="82.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="166.5"/>
+   <Column ss:Width="172.5"/>
+   <Column ss:StyleID="s23" ss:AutoFitWidth="0" ss:Width="131.25"/>
+   <Column ss:Index="10" ss:Width="53.25"/>
+   <Row ss:Height="15.75" ss:StyleID="s25">
+    <Cell><Data ss:Type="String">Studio Name</Data></Cell>
+    <Cell><Data ss:Type="String">Address</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Zip Code</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Phone</Data></Cell>
+    <Cell><Data ss:Type="String">Fax</Data></Cell>
+    <Cell><Data ss:Type="String">Website</Data></Cell>
+    <Cell><Data ss:Type="String">Email</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Contacted by MOFTB</Data></Cell>
+    <Cell><Data ss:Type="String">interested in listing on MOFTB website</Data></Cell>
+    <Cell><Data ss:Type="String">Posted on MOFTB website</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s31">
+    <Cell><Data ss:Type="String">audioEngine</Data></Cell>
+    <Cell><Data ss:Type="String">817 Broadway 8th Floor</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">10003</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">212-473-2700</Data></Cell>
+    <Cell><Data ss:Type="String">212-473-2772</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="http://www.audioengine.net/"><Data
+      ss:Type="String">www.audioengine.net</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="mailto:jenniferh@audioengine.net"><Data
+      ss:Type="String">jenniferh@audioengine.net</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="DateTime">2009-06-24T00:00:00.000</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s31">
+    <Cell><Data ss:Type="String">Avatar Studios</Data></Cell>
+    <Cell><Data ss:Type="String">441 West 53 Street</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">10019</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">212-765-7500</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s33" ss:HRef="http://www.avatarstudios.net/"><Data
+      ss:Type="String">www.avatarstudios.net</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="mailto:tino@avatarstudios.net"><Data
+      ss:Type="String">tino@avatarstudios.net</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">contacted MOFTB directly</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="DateTime">2009-11-19T00:00:00.000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Back Pocket Recording Studio</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">37 W. 20th St. Eigth Floor </Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">10011</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">212-633-1175</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">212-633-8697</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="http://www.russograntham.com/"><Data
+      ss:Type="String">www.russograntham.com</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">Vociemail</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s35">
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Beatstreet Productions</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">928 Broadway Suite 601</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">10010</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">212-777-8440</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">212-477-1735</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="http://www.beatstreetnyc.com/"><Data
+      ss:Type="String">www.beatstreetnyc.com</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="mailto:info@beatstreetnyc.com"><Data
+      ss:Type="String">info@beatstreetnyc.com</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String">live to website 12/15/08 (11/26/08 JL)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Bevan Sound</Data></Cell>
+    <Cell><Data ss:Type="String">62 W. 45th St 10th Floor</Data></Cell>
+    <Cell><Data ss:Type="Number">10036</Data></Cell>
+    <Cell><Data ss:Type="String">212-768-8501</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">212-768-8505</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="http://www.jecomusic.com/"><Data
+      ss:Type="String">www.jecomusic.com</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="mailto:jeco@jecomusic.com"><Data
+      ss:Type="String">jeco@jecomusic.com</Data></Cell>
+    <Cell><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">Vociemail</Data></Cell>
+    <Cell><Data ss:Type="String">Not sure if it's the same company.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s35">
+    <Cell><Data ss:Type="String">Big Yellow Duck</Data></Cell>
+    <Cell><Data ss:Type="String">62 W. 45th St., 12th Fl.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="Number">10036</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">212-997-1200</Data></Cell>
+    <Cell><Data ss:Type="String">212-997-1293</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="http://www.bigyellowduck.com/"><Data
+      ss:Type="String">www.bigyellowduck.com</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="mailto:ralph@bigyellowduck.com"><Data
+      ss:Type="String">ralph@bigyellowduck.com</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String">live to website 12/15/08 (11/26/08 JL)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s35">
+    <Cell><Data ss:Type="String">Btoven Music</Data></Cell>
+    <Cell><Data ss:Type="String">245 West 55th Street, Suite 810</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="Number">10019</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">917-749-0271</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s33" ss:HRef="http://www.btovenmusic.com/"><Data
+      ss:Type="String">www.btovenmusic.com</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="mailto:brian@btovenmusic.com"><Data
+      ss:Type="String">brian@btovenmusic.com</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">contacted MOFTB directly</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String">live to website 6/19/09 (6/19/09 JL)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Buttons Sound, Inc.</Data></Cell>
+    <Cell><Data ss:Type="String">2 West 45th Street Suite 603</Data></Cell>
+    <Cell><Data ss:Type="Number">10036</Data></Cell>
+    <Cell><Data ss:Type="String">212-764-8650</Data></Cell>
+    <Cell><Data ss:Type="String">212-764-8672</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="http://www.buttonsny.com/"><Data
+      ss:Type="String">www.buttonsny.com</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="mailto:rich.macar@buttonsny.com"><Data
+      ss:Type="String">rich.macar@buttonsny.com</Data></Cell>
+    <Cell><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">CDM Studios</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">630 Ninth Ave. Suite 810</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">10036</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">212-904-1870</Data></Cell>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s21" ss:HRef="http://www.cdmstudios.com/"><Data
+      ss:Type="String">www.cdmstudios.com</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="mailto:bookings@cdmstudios.com"><Data
+      ss:Type="String">bookings@cdmstudios.com</Data></Cell>
+    <Cell><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cutting Vision/Infrared Design</Data></Cell>
+    <Cell><Data ss:Type="String">665 Broadway Suite 1201</Data></Cell>
+    <Cell><Data ss:Type="Number">10012</Data></Cell>
+    <Cell><Data ss:Type="String">212-533-9400</Data></Cell>
+    <Cell><Data ss:Type="String">212-533-9463</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="http://www.cuttingvision.com/"><Data
+      ss:Type="String">www.cuttingvision.com</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="mailto:mark_leo@cuttingvision.com"><Data
+      ss:Type="String">mark_leo@cuttingvision.com</Data></Cell>
+    <Cell><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s37">
+    <Cell><Data ss:Type="String">Dig It Audio, Inc.</Data></Cell>
+    <Cell><Data ss:Type="String">200 Varick St Suite 513</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">10014</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">212-206-3887</Data></Cell>
+    <Cell><Data ss:Type="String">212-727-3393</Data></Cell>
+    <Cell ss:StyleID="s39" ss:HRef="http://www.digitaudio.com/"><Data
+      ss:Type="String">www.digitaudio.com</Data></Cell>
+    <Cell ss:StyleID="s39" ss:HRef="mailto:tom@digitaudio.com"><Data
+      ss:Type="String">tom@digitaudio.com</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Dubway Studios</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">135 W. 26th St. Suite 202</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">10001</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">212-352-3070</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">212-352-3072</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="http://www.dubway.com/"><Data ss:Type="String">www.dubway.com</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="mailto:steven@dubway.com"><Data
+      ss:Type="String">steven@dubway.com</Data></Cell>
+    <Cell><Data ss:Type="String">HH </Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Fred Weinberg Music</Data></Cell>
+    <Cell><Data ss:Type="String">161 W. 54th Street Suite1404</Data></Cell>
+    <Cell><Data ss:Type="Number">10019</Data></Cell>
+    <Cell><Data ss:Type="String">212-265-2536</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">212-265-2536</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="http://www.fredweinbergproductions.com/"><Data
+      ss:Type="String">www.fredweinbergproductions.com</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="mailto:fredw@fredweinbergproductions.com"><Data
+      ss:Type="String">fredw@fredweinbergproductions.com</Data></Cell>
+    <Cell><Data ss:Type="String">HH </Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s35">
+    <Cell><Data ss:Type="String">Full House Productions</Data></Cell>
+    <Cell><Data ss:Type="String">123 W. 18th St 7th Floor</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="Number">10011</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">212-645-2228</Data></Cell>
+    <Cell><Data ss:Type="String">212-627-2838</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="http://www.fullhouseny.com/"><Data
+      ss:Type="String">www.fullhouseny.com</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s34"><Data ss:Type="String">HH </Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String">live to website 12/15/08 (11/26/08 JL)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Harmonic Ranch</Data></Cell>
+    <Cell><Data ss:Type="String">59 Franklin Street Suite 303</Data></Cell>
+    <Cell><Data ss:Type="Number">10013</Data></Cell>
+    <Cell><Data ss:Type="String">212-966-3141</Data></Cell>
+    <Cell><Data ss:Type="String">212-431-1447</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="http://www.harmonicranch.com/"><Data
+      ss:Type="String">www.harmonicranch.com</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="mailto:info@harmonicranch.com"><Data
+      ss:Type="String">info@harmonicranch.com</Data></Cell>
+    <Cell><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">HBO Studio Productions</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">120A E. 23rd St.</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">10010</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">212-512-7800</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">212-512-7788</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s21" ss:HRef="mailto:hsp@hsptv.com"><Data
+      ss:Type="String">hsp@hsptv.com</Data></Cell>
+    <Cell><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">Spoke to a secretary. Will call me back.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s35">
+    <Cell><Data ss:Type="String">Hobo Audio Company</Data></Cell>
+    <Cell><Data ss:Type="String">555 Eighth Ave. Fourth Floor</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="Number">10018</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">212-967-6532</Data></Cell>
+    <Cell><Data ss:Type="String">646-607-2767</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="http://www.hoboaudio.com/"><Data
+      ss:Type="String">www.hoboaudio.com</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="mailto:info@hoboaudio.com"><Data
+      ss:Type="String">info@hoboaudio.com</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String">live to website 12/15/08 (11/26/08 JL)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s35">
+    <Cell><Data ss:Type="String">HSR/NY</Data></Cell>
+    <Cell><Data ss:Type="String">420 Lexington Avenue, Suite 1934</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="Number">10170</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">212-687-4180</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s33" ss:HRef="http://www.hsrny.com/"><Data
+      ss:Type="String">www.hsrny.com</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="mailto:zoes@hsrny.com"><Data ss:Type="String">zoes@hsrny.com</Data></Cell>
+    <Cell ss:StyleID="s34"/>
+    <Cell ss:Index="10"><Data ss:Type="String">live to website 10/14/09 JL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ibero-American Productions</Data></Cell>
+    <Cell><Data ss:Type="String">630 9th Ave Suite 700</Data></Cell>
+    <Cell><Data ss:Type="Number">10036</Data></Cell>
+    <Cell><Data ss:Type="String">212-245-7826</Data></Cell>
+    <Cell><Data ss:Type="String">212-245-1569</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="http://www.ibero-american.com/"><Data
+      ss:Type="String">www.ibero-american.com</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="mailto:translations@ibero-american.com"><Data
+      ss:Type="String">translations@ibero-american.com</Data></Cell>
+    <Cell><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s35">
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Integrated Studios</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">449 Washington St.</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">10013</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">212-334-4000</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">212-334-6969</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="http://www.integratedstudios.com/"><Data
+      ss:Type="String">www.integratedstudios.com</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="mailto:info@integratedstudios.com"><Data
+      ss:Type="String">info@integratedstudios.com</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String">live to website 12/15/08 (11/26/08 JL)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">K.A.S. Music &amp; Sound</Data></Cell>
+    <Cell><Data ss:Type="String">34-12 36th Street</Data></Cell>
+    <Cell><Data ss:Type="Number">11106</Data></Cell>
+    <Cell><Data ss:Type="String">718-786-3400</Data></Cell>
+    <Cell><Data ss:Type="String">718-729-3007</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="http://www.kasmusic.com/"><Data
+      ss:Type="String">www.kasmusic.com</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="mailto:info@kasmusic.com"><Data
+      ss:Type="String">info@kasmusic.com</Data></Cell>
+    <Cell><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Legacy Recording Studios</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">509 W. 38th St.</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">10018</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">212-944-5770</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">212-944-7258</Data></Cell>
+    <Cell ss:StyleID="s28" ss:HRef="http://www.righttrackrecording.com/"><Data
+      ss:Type="String">www.righttrackrecording.com</Data></Cell>
+    <Cell ss:StyleID="s28" ss:HRef="mailto:donna@righttrackrecording.com"><Data
+      ss:Type="String">donna@righttrackrecording.com</Data></Cell>
+    <Cell><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">Not sure.Will get back to me.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Lofish Recording Studios</Data></Cell>
+    <Cell><Data ss:Type="String">6 W 28th Street</Data></Cell>
+    <Cell><Data ss:Type="Number">10001</Data></Cell>
+    <Cell><Data ss:Type="String">212-696-1355</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s21" ss:HRef="http://www.lofish.com/"><Data
+      ss:Type="String">www.lofish.com</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="mailto:lofish@lofish.com"><Data
+      ss:Type="String">lofish@lofish.com</Data></Cell>
+    <Cell><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Looking Glass Studios Inc. </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">632 Broadway # 902</Data></Cell>
+    <Cell><Data ss:Type="Number">10012</Data></Cell>
+    <Cell><Data ss:Type="String">212-353-2000</Data></Cell>
+    <Cell><Data ss:Type="String">212-353-2007</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="http://www.glassnyc.com/"><Data
+      ss:Type="String">www.glassnyc.com</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="mailto:info@glassnyc.com"><Data
+      ss:Type="String">info@glassnyc.com</Data></Cell>
+    <Cell><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">Vociemail</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Magno Sound &amp; Video</Data></Cell>
+    <Cell><Data ss:Type="String">729 Seventh Ave</Data></Cell>
+    <Cell><Data ss:Type="Number">10019</Data></Cell>
+    <Cell><Data ss:Type="String">212-302-2505</Data></Cell>
+    <Cell><Data ss:Type="String">212-819-1282</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="http://www.magnosoundandvideo.com/"><Data
+      ss:Type="String">www.magnosoundandvideo.com</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="mailto:staff@magnosoundandvideo.com"><Data
+      ss:Type="String">staff@magnosoundandvideo.com</Data></Cell>
+    <Cell><Data ss:Type="String">HH </Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s35">
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Manhattan Center Studios</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">311 W. 34th St.</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">10001</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">877-627-8834</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">212-564-1092</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="http://www.mcstudios.com/"><Data
+      ss:Type="String">www.mcstudios.com</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="mailto:obie@mcpstudios.com"><Data
+      ss:Type="String">obie@mcpstudios.com</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">Vociemail</Data></Cell>
+    <Cell><Data ss:Type="String">live to website 12/15/08 (12/12/08 JL)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">McHale at Irving Place</Data></Cell>
+    <Cell><Data ss:Type="String">30 Irving Pl. 6th Floor </Data></Cell>
+    <Cell><Data ss:Type="Number">10003</Data></Cell>
+    <Cell><Data ss:Type="String">212-253-2920</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s21" ss:HRef="http://www.mchaleip.com/"><Data
+      ss:Type="String">www.mchaleip.com</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s35">
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Mediaracket</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">19 W. 21st St. Suite 1104</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">10010</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">212-961-7337</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">212-633-9933</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="http://www.mediaracket.com/"><Data
+      ss:Type="String">www.mediaracket.com</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="mailto:tom@mediaracket.com"><Data
+      ss:Type="String">tom@mediaracket.com</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String">live to website 12/15/08 (12/3/08 JL)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Merlin Studios</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">1560 Broadway Suite 1111</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">10036</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">212-575-2744</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">212-575-3690</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s35">
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Mixopolis, Inc.</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">5 E. 47th St. Seventh Floor</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">10017</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">212-980-5009</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">212-223-4524</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="http://www.mixopolis.com/"><Data
+      ss:Type="String">www.mixopolis.com</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="mailto:lydia@mixopolis.com"><Data
+      ss:Type="String">lydia@mixopolis.com</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String">live to website 12/15/08 (12/2/08 JL)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Musicreations</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">126 W. 75th St. Suite 1</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">10023</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">212-721-4667</Data></Cell>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s21" ss:HRef="http://www.musicreations.net/"><Data
+      ss:Type="String">www.musicreations.net</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="mailto:jrusso10@nyc.rr.com"><Data
+      ss:Type="String">jrusso10@nyc.rr.com</Data></Cell>
+    <Cell><Data ss:Type="String">HH </Data></Cell>
+    <Cell><Data ss:Type="String">Vociemail</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s35">
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Now Hear This</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">250 W. 49th St. Suite 704</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">10019</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">212-265-1188</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">212-265-6363</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="http://www.nhtsound.com/"><Data
+      ss:Type="String">www.nhtsound.com</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="mailto:larry@nhtsound.com"><Data
+      ss:Type="String">larry@nhtsound.com</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String">live to website 12/15/08 (12/9/08 JL)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s37">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Nutmeg Audio</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">45 W. 45th St. Sixth Floor</Data></Cell>
+    <Cell ss:StyleID="s41"><Data ss:Type="Number">10036</Data></Cell>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">212-921-8005</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">212-921-7728</Data></Cell>
+    <Cell ss:StyleID="s39" ss:HRef="http://www.nutmegaudiopost.com/"><Data
+      ss:Type="String">www.nutmegaudiopost.com</Data></Cell>
+    <Cell ss:StyleID="s39" ss:HRef="mailto:info@nutmegaudiopost.com"><Data
+      ss:Type="String">info@nutmegaudiopost.com</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s35">
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Pomann Sound, Inc.</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">2 W. 46th St., PH</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">10036</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">212-869-4161</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">212-869-4541</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="http://www.pomannsound.com/"><Data
+      ss:Type="String">www.pomannsound.com</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="mailto:info@pomannsound.com"><Data
+      ss:Type="String">info@pomannsound.com</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String">live to website 12/15/08 (12/2/08 JL)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">PostWorks</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">100 Avenue of the Americas 10th Floor</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">10013</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">212-894-4000</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">212-941-0439</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="http://www.postworks.com/"><Data
+      ss:Type="String">www.postworks.com</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="mailto:inquiry@postworks.com"><Data
+      ss:Type="String">inquiry@postworks.com</Data></Cell>
+    <Cell><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">Vociemail</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Rooftop Productions</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">212-427-5014</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">212-633-1533</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="http://www.rooftopproductions.com/"><Data
+      ss:Type="String">www.rooftopproductions.com</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="mailto:info@rooftopproductions.com"><Data
+      ss:Type="String">info@rooftopproductions.com</Data></Cell>
+    <Cell><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">Vociemail</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s35">
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Serge Audio</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">260 Fifth Ave Eigth Floor</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">10001</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">212-213-0808</Data></Cell>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s33" ss:HRef="http://www.sergeaudio.com/"><Data
+      ss:Type="String">www.sergeaudio.com</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="mailto:info@sergeaudio.com"><Data
+      ss:Type="String">info@sergeaudio.com</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String">live to website 12/15/08 (12/2/08 JL)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s35">
+    <Cell><Data ss:Type="String">Silver Sound Inc.</Data></Cell>
+    <Cell><Data ss:Type="String">28 W. 27th St. Suite 906</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="Number">10001</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">212-757-5147</Data></Cell>
+    <Cell><Data ss:Type="String">212-757-6245</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="http://www.silversound.us/"><Data
+      ss:Type="String">www.silversound.us</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="mailto:cory@silversound.us"><Data
+      ss:Type="String">cory@silversound.us</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String">live to website 12/15/08 (12/2/08 JL)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Skyline Recording Studio</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">36 W 37th St # 3</Data></Cell>
+    <Cell><Data ss:Type="Number">10018</Data></Cell>
+    <Cell><Data ss:Type="String">212-714-9691</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s21" ss:HRef="http://www.skystudnyc.com/"><Data
+      ss:Type="String">www.skystudnyc.com</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sony BMG Music Entertainment</Data></Cell>
+    <Cell><Data ss:Type="String">550 Madison Ave</Data></Cell>
+    <Cell><Data ss:Type="Number">10022</Data></Cell>
+    <Cell><Data ss:Type="String">212-833-8000</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s21" ss:HRef="http://www.sonybmg.com/"><Data
+      ss:Type="String">www.sonybmg.com</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sound One Corp.</Data></Cell>
+    <Cell><Data ss:Type="String">1619 Broadway</Data></Cell>
+    <Cell><Data ss:Type="Number">10019</Data></Cell>
+    <Cell><Data ss:Type="String">212-765-4757</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">212-603-4363</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="http://www.soundone.com/"><Data
+      ss:Type="String">www.soundone.com</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="mailto:frontdesk@soundone.com"><Data
+      ss:Type="String">frontdesk@soundone.com</Data></Cell>
+    <Cell><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">Has to be reviewed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">SoundImage NY</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">16 W. 46th St Eighth Floor</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">10036</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">212-986-6445</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">212-764-0440</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="http://www.soundimageny.com/"><Data
+      ss:Type="String">www.soundimageny.com</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="mailto:ops@soundimageny.com"><Data
+      ss:Type="String">ops@soundimageny.com</Data></Cell>
+    <Cell><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s35">
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Soundtrack</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">936 Broadway 4th Floor</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">10010</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">212-420-6010</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">612-677-6403</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="http://www.soundtrackny.com/"><Data
+      ss:Type="String">www.soundtrackny.com</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="mailto:maegan.hayward@soundtrackny.com"><Data
+      ss:Type="String">maegan.hayward@soundtrackny.com</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String">added to website 12/18/08 JL</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s35">
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Splash Studios, Inc.</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">49 W. 23rd St. Sixth Floor</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">10010</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">212-271-8747</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">212-271-8748</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="http://www.splash-studios.com/"><Data
+      ss:Type="String">www.splash-studios.com</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="mailto:booking@splash-studios.com"><Data
+      ss:Type="String">booking@splash-studios.com</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String">live to website 12/15/08 (12/2/08 JL)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s35">
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Strongboy Studios</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">497 Manhattan Ave Suite 3</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">10027</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">212-203-2325</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">212-222-1113</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="http://www.strongboystudios.com/"><Data
+      ss:Type="String">www.strongboystudios.com</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="mailto:ny411@strongboystudios.com"><Data
+      ss:Type="String">ny411@strongboystudios.com</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String">live to website 12/15/08 (12/9/08 JL)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Studio K Music Productions</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">150 W. 28th St. Suite 902E</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">10001</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">212-229-1642</Data></Cell>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s21" ss:HRef="http://www.parkswingorc.com/"><Data
+      ss:Type="String">www.parkswingorc.com</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="mailto:billkinslow@mindspring.com"><Data
+      ss:Type="String">billkinslow@mindspring.com</Data></Cell>
+    <Cell><Data ss:Type="String">HH </Data></Cell>
+    <Cell><Data ss:Type="String">Vociemail</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sync Sound Inc.</Data></Cell>
+    <Cell><Data ss:Type="String">450 W. 56th St.</Data></Cell>
+    <Cell><Data ss:Type="Number">10019</Data></Cell>
+    <Cell><Data ss:Type="String">212-246-5580</Data></Cell>
+    <Cell><Data ss:Type="String">212-399-6099</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="http://www.syncsound.com/"><Data
+      ss:Type="String">www.syncsound.com</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Tandem Sound</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">104 W. 14th St. Suite 2A</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">10011</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">212-989-5373</Data></Cell>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s21" ss:HRef="http://www.tandemsound.com/"><Data
+      ss:Type="String">www.tandemsound.com</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="mailto:michael@tandemsound.com"><Data
+      ss:Type="String">michael@tandemsound.com</Data></Cell>
+    <Cell><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">will call me back</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s35">
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Studio Center - No longer Tonic</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">50 E. 42nd St. 11th Floor</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">10017</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">212-986-3070</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">212-490-9737</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">http://studiocenter.com/Home.aspx</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="mailto:sharon@tonic.tv"><Data ss:Type="String">sharon@tonic.tv</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String">live to website 12/15/08 (12/3/08 JL)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Track 9 Studios, LLC</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">9 Desbrosses St. Second Floor </Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">10013</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">212-905-2380</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">212-609-0955</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="http://www.track9studios.com/"><Data
+      ss:Type="String">www.track9studios.com</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="mailto:paul@track9studios.com"><Data
+      ss:Type="String">paul@track9studios.com</Data></Cell>
+    <Cell><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">Vociemail</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s35">
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Vertical Entertainment</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">440 W. 41st Street, 2 PL</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">10036</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">310-435-3766</Data></Cell>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s33" ss:HRef="http://www.vrtclentertainment.com/"><Data
+      ss:Type="String">www.vrtclentertainment.com</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="mailto:info@vrtclentertainment.com"><Data
+      ss:Type="String">info@vrtclentertainment.com</Data></Cell>
+    <Cell ss:StyleID="s34"/>
+    <Cell ss:Index="10"><Data ss:Type="String">live to website 3/2/09 JL</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s35">
+    <Cell ss:StyleID="s31"><Data ss:Type="String">VideoActive Productions/VoiceWorks Sound Studios</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">1560 Broadway, Studio 610</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">10036</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">212-541-6592</Data></Cell>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s33" ss:HRef="http://www.videoactiveprod.com/"><Data
+      ss:Type="String">www.videoactiveprod.com</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="mailto:vworks@aol.com"><Data ss:Type="String">vworks@aol.com</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">live to website 12/15/08 (12/3/2008 JL)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">World Wide Audio, Inc.</Data></Cell>
+    <Cell><Data ss:Type="String">41 White St., PH 5B</Data></Cell>
+    <Cell><Data ss:Type="Number">10013</Data></Cell>
+    <Cell><Data ss:Type="String">646-336-1152</Data></Cell>
+    <Cell><Data ss:Type="String">646-336-1153</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="http://www.globalaudio.net/"><Data
+      ss:Type="String">www.globalaudio.net</Data></Cell>
+    <Cell ss:StyleID="s21" ss:HRef="mailto:ghilton@wwaudiolinc.com"><Data
+      ss:Type="String">ghilton@wwaudiolinc.com</Data></Cell>
+    <Cell><Data ss:Type="String">HH</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+   </Row>
+   <Row ss:Index="57" ss:StyleID="s35">
+    <Cell><Data ss:Type="String">Bond</Data></Cell>
+    <Cell><Data ss:Type="String">665 Broadway 12th Floor</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="Number">10012</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">212-533-9400</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s33" ss:HRef="http://www.bondedit.com/"><Data
+      ss:Type="String">www.bondedit.com</Data></Cell>
+    <Cell ss:StyleID="s33" ss:HRef="mailto:jeff_beckerman@bondedit.com"><Data
+      ss:Type="String">jeff_beckerman@bondedit.com</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">?</Data></Cell>
+    <Cell><Data ss:Type="String">?</Data></Cell>
+    <Cell><Data ss:Type="String">live to website 12/15/08 (12/2/08 JL)</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>42</ActiveRow>
+     <RangeSelection>R43</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <Sorting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Sort>Studio Name</Sort>
+  </Sorting>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

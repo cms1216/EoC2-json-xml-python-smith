@@ -1,0 +1,1067 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "7sht-3vf5",
+      "name" : "Jazz Houses_data",
+      "assetType" : "invalid_datatype",
+      "averageRating" : 0,
+      "createdAt" : 1516826630,
+      "description" : "",
+      "displayType" : "geoRows",
+      "downloadCount" : 996,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1557264135,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 27834943,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1516826632,
+      "publicationGroup" : 14827965,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1557264127,
+      "rowsUpdatedBy" : "xiq3-38kp",
+      "tableId" : 14827965,
+      "totalTimesRated" : 0,
+      "viewCount" : 4,
+      "viewLastModified" : 1516826633,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewableUid" : "4yyx-2ext",
+        "reviewedAt" : 1516826633,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 701980,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1516826633,
+        "workflowId" : 2032,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "xiq3-38kp",
+          "displayName" : "ArcGIS Connector"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 342074857,
+        "name" : "the_geom",
+        "dataTypeName" : "point",
+        "fieldName" : "the_geom",
+        "position" : 1,
+        "renderTypeName" : "point",
+        "tableColumnId" : 60401187,
+        "cachedContents" : {
+          "non_null" : "391",
+          "null" : "85",
+          "top" : [ {
+            "item" : {
+              "coordinates" : [ -90.062305703964, 29.971200571347 ],
+              "type" : "Point"
+            },
+            "count" : "5"
+          }, {
+            "item" : {
+              "coordinates" : [ -90.104778416441, 29.933331899018 ],
+              "type" : "Point"
+            },
+            "count" : "5"
+          }, {
+            "item" : {
+              "coordinates" : [ -90.128333716575, 29.942107534625 ],
+              "type" : "Point"
+            },
+            "count" : "5"
+          }, {
+            "item" : {
+              "coordinates" : [ -90.062364538947, 29.969154841464 ],
+              "type" : "Point"
+            },
+            "count" : "4"
+          }, {
+            "item" : {
+              "coordinates" : [ -90.066405411411, 29.975084691565 ],
+              "type" : "Point"
+            },
+            "count" : "4"
+          }, {
+            "item" : {
+              "coordinates" : [ -90.065875545516, 29.974682677254 ],
+              "type" : "Point"
+            },
+            "count" : "3"
+          }, {
+            "item" : {
+              "coordinates" : [ -90.105032073136, 29.933504001867 ],
+              "type" : "Point"
+            },
+            "count" : "3"
+          }, {
+            "item" : {
+              "coordinates" : [ -90.081914029924, 29.963635775759 ],
+              "type" : "Point"
+            },
+            "count" : "3"
+          }, {
+            "item" : {
+              "coordinates" : [ -90.081796206122, 29.965847881813 ],
+              "type" : "Point"
+            },
+            "count" : "3"
+          }, {
+            "item" : {
+              "coordinates" : [ -90.098816389469, 29.937036319107 ],
+              "type" : "Point"
+            },
+            "count" : "3"
+          }, {
+            "item" : {
+              "coordinates" : [ -90.079947192847, 29.961749687316 ],
+              "type" : "Point"
+            },
+            "count" : "3"
+          }, {
+            "item" : {
+              "coordinates" : [ -90.050693968531, 29.964374832693 ],
+              "type" : "Point"
+            },
+            "count" : "3"
+          }, {
+            "item" : {
+              "coordinates" : [ -90.06968463706, 29.975717530877 ],
+              "type" : "Point"
+            },
+            "count" : "3"
+          }, {
+            "item" : {
+              "coordinates" : [ -90.086987857696, 29.938578273723 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -90.063704050042, 29.971477967433 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -90.103432283772, 29.935227364747 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -90.061945930259, 29.96910547739 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -90.096952724249, 29.968994947212 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -90.065533882285, 29.974318512347 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -90.130425949049, 29.955783012365 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          } ],
+          "cardinality" : "342"
+        },
+        "format" : { }
+      }, {
+        "id" : 342074858,
+        "name" : "ObjectID",
+        "dataTypeName" : "number",
+        "fieldName" : "objectid",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 60401188,
+        "cachedContents" : {
+          "largest" : "476",
+          "non_null" : "476",
+          "null" : "0",
+          "top" : [ {
+            "item" : "154",
+            "count" : "1"
+          }, {
+            "item" : "267",
+            "count" : "1"
+          }, {
+            "item" : "79",
+            "count" : "1"
+          }, {
+            "item" : "329",
+            "count" : "1"
+          }, {
+            "item" : "21",
+            "count" : "1"
+          }, {
+            "item" : "476",
+            "count" : "1"
+          }, {
+            "item" : "173",
+            "count" : "1"
+          }, {
+            "item" : "346",
+            "count" : "1"
+          }, {
+            "item" : "352",
+            "count" : "1"
+          }, {
+            "item" : "265",
+            "count" : "1"
+          }, {
+            "item" : "441",
+            "count" : "1"
+          }, {
+            "item" : "232",
+            "count" : "1"
+          }, {
+            "item" : "404",
+            "count" : "1"
+          }, {
+            "item" : "395",
+            "count" : "1"
+          }, {
+            "item" : "399",
+            "count" : "1"
+          }, {
+            "item" : "400",
+            "count" : "1"
+          }, {
+            "item" : "212",
+            "count" : "1"
+          }, {
+            "item" : "285",
+            "count" : "1"
+          }, {
+            "item" : "387",
+            "count" : "1"
+          }, {
+            "item" : "281",
+            "count" : "1"
+          } ],
+          "smallest" : "1",
+          "cardinality" : "476"
+        },
+        "format" : { }
+      }, {
+        "id" : 342074859,
+        "name" : "Musician First Name",
+        "dataTypeName" : "text",
+        "fieldName" : "musicianfirstname",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 60401189,
+        "cachedContents" : {
+          "largest" : "Yvonne M. \"Dixie\"",
+          "non_null" : "422",
+          "null" : "54",
+          "top" : [ {
+            "item" : "Louis",
+            "count" : "18"
+          }, {
+            "item" : "Albert",
+            "count" : "17"
+          }, {
+            "item" : "George",
+            "count" : "15"
+          }, {
+            "item" : "Johnny",
+            "count" : "10"
+          }, {
+            "item" : "Henry",
+            "count" : "9"
+          }, {
+            "item" : "Charles",
+            "count" : "9"
+          }, {
+            "item" : "Paul",
+            "count" : "9"
+          }, {
+            "item" : "Frank",
+            "count" : "8"
+          }, {
+            "item" : "Joseph",
+            "count" : "8"
+          }, {
+            "item" : "Lorenzo",
+            "count" : "7"
+          }, {
+            "item" : "John",
+            "count" : "6"
+          }, {
+            "item" : "Jack \"Papa\"",
+            "count" : "6"
+          }, {
+            "item" : "Manuel",
+            "count" : "6"
+          }, {
+            "item" : "Alcide \"Yellow\"",
+            "count" : "5"
+          }, {
+            "item" : "Sidney",
+            "count" : "5"
+          }, {
+            "item" : "Andrew",
+            "count" : "5"
+          }, {
+            "item" : "Paul (Adolphe Paul)",
+            "count" : "5"
+          }, {
+            "item" : "Edward",
+            "count" : "4"
+          }, {
+            "item" : "Isadore J.",
+            "count" : "4"
+          }, {
+            "item" : "Walter",
+            "count" : "4"
+          } ],
+          "smallest" : "Aaron Warren",
+          "cardinality" : "217"
+        },
+        "format" : { }
+      }, {
+        "id" : 342074860,
+        "name" : "Musician Last Name",
+        "dataTypeName" : "text",
+        "fieldName" : "musiciansurname",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 60401190,
+        "cachedContents" : {
+          "largest" : "Zimmerman",
+          "non_null" : "422",
+          "null" : "54",
+          "top" : [ {
+            "item" : "Barbarin",
+            "count" : "18"
+          }, {
+            "item" : "Dedroit",
+            "count" : "12"
+          }, {
+            "item" : "Humphrey",
+            "count" : "10"
+          }, {
+            "item" : "Hall",
+            "count" : "8"
+          }, {
+            "item" : "Laine",
+            "count" : "7"
+          }, {
+            "item" : "Bigard",
+            "count" : "7"
+          }, {
+            "item" : "Bechet",
+            "count" : "6"
+          }, {
+            "item" : "Baquet",
+            "count" : "6"
+          }, {
+            "item" : "Joseph",
+            "count" : "6"
+          }, {
+            "item" : "Nunez",
+            "count" : "5"
+          }, {
+            "item" : "Lewis",
+            "count" : "5"
+          }, {
+            "item" : "Bolden",
+            "count" : "5"
+          }, {
+            "item" : "Jiles",
+            "count" : "5"
+          }, {
+            "item" : "Alexander",
+            "count" : "5"
+          }, {
+            "item" : "Sarebresole",
+            "count" : "5"
+          }, {
+            "item" : "Du Conge",
+            "count" : "4"
+          }, {
+            "item" : "Froeba",
+            "count" : "4"
+          }, {
+            "item" : "Broekhoven",
+            "count" : "4"
+          }, {
+            "item" : "Brown",
+            "count" : "4"
+          }, {
+            "item" : "Henry",
+            "count" : "4"
+          } ],
+          "smallest" : "Ahaynou",
+          "cardinality" : "222"
+        },
+        "format" : { }
+      }, {
+        "id" : 342074861,
+        "name" : "Address",
+        "dataTypeName" : "text",
+        "fieldName" : "address",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 60401191,
+        "cachedContents" : {
+          "largest" : "(old) 70 N ROMAN ST",
+          "non_null" : "422",
+          "null" : "54",
+          "top" : [ {
+            "item" : "4525 S LIBERTY ST",
+            "count" : "5"
+          }, {
+            "item" : "7612 BURTHE ST",
+            "count" : "5"
+          }, {
+            "item" : "1726 N VILLERE ST",
+            "count" : "5"
+          }, {
+            "item" : "1657 N ROMAN ST",
+            "count" : "4"
+          }, {
+            "item" : "1716 MARAIS ST",
+            "count" : "4"
+          }, {
+            "item" : "158 PALMYRA ST",
+            "count" : "3"
+          }, {
+            "item" : "2002 IBERVILLE ST",
+            "count" : "3"
+          }, {
+            "item" : "2225 IBERVILLE ST",
+            "count" : "3"
+          }, {
+            "item" : "1722 NEW ORLEANS ST",
+            "count" : "3"
+          }, {
+            "item" : "2029 LAPEYROUSE ST",
+            "count" : "3"
+          }, {
+            "item" : "2404 CONTI ST",
+            "count" : "3"
+          }, {
+            "item" : "2313 CADIZ ST",
+            "count" : "3"
+          }, {
+            "item" : "2621 GENERAL TAYLOR ST",
+            "count" : "3"
+          }, {
+            "item" : "1637 N VILLERE ST",
+            "count" : "2"
+          }, {
+            "item" : "44.5 S MIRO ST",
+            "count" : "2"
+          }, {
+            "item" : "1637 NEW ORLEANS ST",
+            "count" : "2"
+          }, {
+            "item" : "4034 BURGUNDY ST",
+            "count" : "2"
+          }, {
+            "item" : "632 PORT ST",
+            "count" : "2"
+          }, {
+            "item" : "1725 N VILLERE ST",
+            "count" : "2"
+          }, {
+            "item" : "3630-32 N JOHNSON ST",
+            "count" : "2"
+          } ],
+          "smallest" : "1006 KERLEREC ST",
+          "cardinality" : "373"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "owner" : {
+        "id" : "xiq3-38kp",
+        "displayName" : "ArcGIS Connector",
+        "screenName" : "ArcGIS Connector",
+        "type" : "interactive"
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "xiq3-38kp",
+        "displayName" : "ArcGIS Connector",
+        "screenName" : "ArcGIS Connector",
+        "type" : "interactive"
+      },
+      "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-x2dh~am87~cayk", "00000000-0000-0000-C6F0-5641D5DA391A", 0, 1516826633, null, 1516826633, null, "{ }", null, "355", "James", "Brown", "811 N LIBERTY ST" ]
+, [ "row-suzy~e5iy_qmx7", "00000000-0000-0000-2EBE-7827A0BB0F81", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.07430352659 29.967599050759)", "151", "Alphonse", "Picou", "912 N PRIEUR ST" ]
+, [ "row-rw6j.6vhq.9c8b", "00000000-0000-0000-D74D-35EEEFE44083", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.088923697809 29.932147515961)", "268", "Dave", "Perkins", "1814 SIXTH ST" ]
+, [ "row-bnq6~jfjs.u58f", "00000000-0000-0000-8991-88E86CC4AC89", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.07998528491 29.962357032765)", "73", "William J.", "Braun", "2019 IBERVILLE ST" ]
+, [ "row-5mmr-i7ej-igt7", "00000000-0000-0000-F06A-5FD7AC6B8773", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.078225678024 29.939501517438)", "292", "\"Professor Longhair\" \"Fess\"", "Byrd", "1738 TERPSICHORE ST" ]
+, [ "row-vehh~wdq5.639z", "00000000-0000-0000-89B5-2C39DF47DFF8", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.090041354658 29.965394043402)", "266", "Alcide \"Yellow\"", "Nunez", "211 S WHITE ST" ]
+, [ "row-cgcq.e4z7-wctn", "00000000-0000-0000-D5B5-48922D510569", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.083090109204 29.964773426601)", "204", "Charles E.", "Boehler", "219 N TONTI ST" ]
+, [ "row-hppv_u7qt-ak25", "00000000-0000-0000-997C-C6DE19D50F23", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.066830804179 29.964892477355)", "310", "Leon", "Barzin", "1217 URSULINES AVE" ]
+, [ "row-zxnn_hxuy.gh8a", "00000000-0000-0000-9347-A78A8D2FDAAA", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.06968463706 29.975717530877)", "96", "Albert", "Du Conge", "2029 LAPEYROUSE ST" ]
+, [ "row-hqku~n8if-ve4p", "00000000-0000-0000-291B-0D92100861D8", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.049729698091 29.967954918287)", "240", "Thomas", "Froeba", "1014 PORT ST" ]
+, [ "row-fi2z.3wyc~jtpi", "00000000-0000-0000-8BAD-5725D7856282", 0, 1516826633, null, 1516826633, null, "{ }", null, "442", null, null, null ]
+, [ "row-umu3-hxj5~gah9", "00000000-0000-0000-FDD5-CB954933CDDA", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.087015876123 29.93861493956)", "287", "Charles \"Buddy\"", "Bolden", "2309-11 FIRST ST" ]
+, [ "row-zce7_8yfb_9eaj", "00000000-0000-0000-020C-685E692ECD84", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.089407825656 29.960629533393)", "392", "Emma \"Sweet Emma\"", "Barrett", "537 S DORGENOIS ST" ]
+, [ "row-rem3_24tz_b97t", "00000000-0000-0000-FB23-12E2DC2F36B0", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.07064803034 29.977904378831)", "184", "Bigeau", "Esther", "1660 N TONTI ST" ]
+, [ "row-n679-75kx~mqja", "00000000-0000-0000-131D-D637652CF1B7", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.093299809999 29.940812906033)", "475", "Clarence", "Hall", "2804 WASHINGTON AVE" ]
+, [ "row-cy8n.zpsq~zmkw", "00000000-0000-0000-92F9-8E192879C713", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.044490547092 29.966292038206)", "167", "Sharkey", "Bonano (Joseph G.", "3102 N RAMPART ST" ]
+, [ "row-w7y6-v2cu~vi2j", "00000000-0000-0000-07A4-CA4FEF1533B5", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.080658819957 29.962793861109)", "39", "Henry", "Bayersdorffer", "2107 IBERVILLE ST" ]
+, [ "row-2z8r-u6jk-pfux", "00000000-0000-0000-6375-B384F7D33B44", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.069256641168 29.972245167988)", "176", "Waldren C. \"Frog\"", "Joseph", "1479 N ROMAN ST" ]
+, [ "row-wm24-uhhh.47t5", "00000000-0000-0000-F643-8354A16696BA", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.065362084169 29.974973851899)", "206", "Isadore J.", "Barbarin", "1737 NEW ORLEANS ST" ]
+, [ "row-5gu8-8fmi-sh52", "00000000-0000-0000-A7CF-02094470A72A", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.088080269561 29.94432227858)", "106", "Aaron Warren", "Clark", "2816 JOSEPHINE ST" ]
+, [ "row-azdc_qyb4_fhgx", "00000000-0000-0000-4AAA-B0DCD661F517", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.071509562198 29.965827498157)", "365", "Edward", "Johnson", "940 N CLAIBORNE AVE" ]
+, [ "row-b4vs-htn7~mtp9", "00000000-0000-0000-49D8-43CC332253C7", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.092939422172 29.94083848205)", "47", "Johnny", "Dodds", "2722 CLARA ST" ]
+, [ "row-yb25-5c23_jevu", "00000000-0000-0000-55F6-25844DFD1DFA", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.128333716575 29.942107534625)", "17", "Henry \"Henny\"", "Brunies, Jr.", "7612 BURTHE ST" ]
+, [ "row-hyu8.dnkk_8se3", "00000000-0000-0000-EEB5-E474E046952E", 0, 1516826633, null, 1516826633, null, "{ }", null, "451", null, null, null ]
+, [ "row-i9h6~e8dw-xx8k", "00000000-0000-0000-D0D1-2BDDBDC7FDFE", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.107968229889 29.938200433628)", "241", "Maximillan", "Fink", "2615 ROBERT ST" ]
+, [ "row-qkm2_mzb2~2vtv", "00000000-0000-0000-4ABD-309965649722", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.114609784598 29.940149460361)", "468", "Emmet", "Hardy", "2504 STATE ST" ]
+, [ "row-pc26-4h32.6krw", "00000000-0000-0000-E705-C818A94DDA12", 0, 1516826633, null, 1516826633, null, "{ }", null, "421", null, null, null ]
+, [ "row-4ada-bmpd.qpku", "00000000-0000-0000-C29E-E0068AFFCB5B", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.092646675198 29.938987454625)", "402", "Edgar (Guy)", "Kelly", "2818 S ROBERTSON ST" ]
+, [ "row-jrbn_ds9e-t3qf", "00000000-0000-0000-BEA3-73FFF105F5A4", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.07731030482 29.9629316116)", "381", "Joseph", "Bosseau", "413 N ROMAN ST" ]
+, [ "row-26jh_uepf_9gqe", "00000000-0000-0000-5E4D-91770834E445", 0, 1516826633, null, 1516826633, null, "{ }", null, "460", null, null, null ]
+, [ "row-uc9p~zcfq.i4xm", "00000000-0000-0000-877D-34A1BB191AAA", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062230516663 29.966031593208)", "89", "Laurent", "Dubuclet", "1006 KERLEREC ST" ]
+, [ "row-mw5g~yhmd_gbkj", "00000000-0000-0000-73E4-C7D8366A864B", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.068149457367 29.975973360522)", "143", "Clarence B.", "Hall", "1652 N JOHNSON ST" ]
+, [ "row-z5r7~bh6p-cru8", "00000000-0000-0000-19D6-6741A48DBC83", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.103432283772 29.935227364747)", "321", "Frederick", "Hall", "4431 FRERET ST" ]
+, [ "row-ykk2-gqpp-6y4x", "00000000-0000-0000-863A-FF05E4F9A184", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.07684472445 29.9397161471)", "298", "J. Frederick", "Grau", "1511 CARONDELET ST" ]
+, [ "row-q4ug-84z9.fhtx", "00000000-0000-0000-9E60-7337A6E5866E", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.082283054071 29.935840448027)", "92", "Octave C.", "Bodemuller", "1748 JACKSON AVE" ]
+, [ "row-ufpv~h78j.ktte", "00000000-0000-0000-234E-53A214FB4137", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.050693968531 29.964374832693)", "238", "Jack \"Papa\"", "Laine", "630 PORT ST" ]
+, [ "row-iyt5.u3sz~u9fj", "00000000-0000-0000-C5DD-C3C0CD5705C3", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.078826149049 29.964125649615)", "35", "Harry", "Bernard", "2037 CONTI ST" ]
+, [ "row-6ani_bwir-ucab", "00000000-0000-0000-B336-F5226E00626B", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.047495338843 29.9686191505)", "277", "Joseph", "Ahrens", "2827 ST CLAUDE AVE" ]
+, [ "row-3vxj.c3pp-9a9h", "00000000-0000-0000-F99F-3E1296A112E7", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062552360982 29.969220501319)", "346", "Alphonse", "Picou", "1720-22 MARAIS ST" ]
+, [ "row-kp5n-j9ny~38yq", "00000000-0000-0000-E6ED-23CCC7E48AAF", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.045822350845 29.977429490759)", "289", "Alcide \"Yellow\"", "Nunez", "1926 ST FERDINAND ST" ]
+, [ "row-jb9d~3sfm_m8kc", "00000000-0000-0000-33B8-960DDB19C63E", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.068668499562 29.96483870686)", "344", "Oscar \"Chicken\"", "Henry", "925 MARAIS ST" ]
+, [ "row-ksmu-qsdu.9emy", "00000000-0000-0000-FE89-4F76B3010EB7", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062305703964 29.971200571347)", "188", "Alex", "Bigard", "1726 N VILLERE ST" ]
+, [ "row-4ax4.66q6-9m8s", "00000000-0000-0000-3E3D-78484FBD0AAD", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.065292103458 29.971418228175)", "354", "Sidney", "Desvigne", "1567 N ROBERTSON ST" ]
+, [ "row-7yq8-mxzf.mgr4", "00000000-0000-0000-AD9B-41AF68414147", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.104778416441 29.933331899018)", "256", "Earl", "Humphrey", "4525 S LIBERTY ST" ]
+, [ "row-tx2k_365c~bxqm", "00000000-0000-0000-EE35-3BE2422DAB16", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.0639869602 29.977563988912)", "144", "Manuel", "Gallier", "1821 N JOHNSON ST" ]
+, [ "row-3hk3.z8bk_9hdt", "00000000-0000-0000-98AB-669CA46D7E99", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.103101438192 29.951336502085)", "61", "George P.", "Blanchin", "4118 ELBA ST" ]
+, [ "row-h6ct-xwg4-cf6a", "00000000-0000-0000-3A9B-9A18423A0FC7", 0, 1516826633, null, 1516826633, null, "{ }", null, "315", "Emma", "Johnson", "20 GASQUET ST" ]
+, [ "row-hbiv_qrcr_b5ja", "00000000-0000-0000-732E-95FE66F1016E", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.086987857696 29.938578273723)", "342", "Charles \"Buddy\"", "Bolden", "2303 FIRST ST" ]
+, [ "row-myxx~enfi-a5rm", "00000000-0000-0000-F3C6-2B7CF0BC9223", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.086475515682 29.964206537917)", "251", "Castro", "Carazo", "119 S DORGENOIS ST" ]
+, [ "row-vmbk.f8pd_qyti", "00000000-0000-0000-63AC-54AC75CB0EE4", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062378555294 29.98200944244)", "275", "Adolph", "Alexander", "2421 ST ANTHONY ST" ]
+, [ "row-cvev.cknu-qp83", "00000000-0000-0000-4F05-068D91F531E0", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.092576692037 29.963065439381)", "300", "John", "Bertucci", "2801 TULANE AVE" ]
+, [ "row-c5nv_fayr.vfe9", "00000000-0000-0000-E9FE-4A5172F7E2DE", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.081912769392 29.938792615428)", "333", "Oscar \"Papa\"", "Celestin", "1927 DANNEEL ST" ]
+, [ "row-ufwj_3yhq_txd3", "00000000-0000-0000-D7B2-BB557BC9E920", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.061945930259 29.96910547739)", "121", "Ulysses J.", "Jean", "1730 MARAIS ST" ]
+, [ "row-vgqh~hbgq.w97w", "00000000-0000-0000-2EDC-FAB1314F9528", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.070421583455 29.976503859143)", "148", "Walter", "deCou", "1616 N MIRO ST" ]
+, [ "row-8tf5.tjyx~kmh8", "00000000-0000-0000-0E9F-F1389F53B8BC", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.065533882285 29.974318512347)", "367", "Adolph L.", "Alexander", "1637 NEW ORLEANS ST" ]
+, [ "row-guw6_x3s8.nd9i", "00000000-0000-0000-22D7-9C9ABEF97851", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.053853388334 29.963995737167)", "124", "Jack", "Laine", "607 MANDEVILLE ST" ]
+, [ "row-r9xk-pf8p-hkz5", "00000000-0000-0000-B46E-E9323403CE33", 0, 1516826633, null, 1516826633, null, "{ }", null, "409", null, null, null ]
+, [ "row-7agq~t7ra.ajwg", "00000000-0000-0000-E82E-659561453056", 0, 1516826633, null, 1516826633, null, "{ }", null, "445", null, null, null ]
+, [ "row-c5s3_dnnv-4y3g", "00000000-0000-0000-29DC-0AD227BB0E38", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.066405411411 29.975084691565)", "368", "Albert", "Du Conge", "1657 N ROMAN ST" ]
+, [ "row-q2wu_ru5x.hsi9", "00000000-0000-0000-73FD-8F4680363790", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.080499009828 29.945816928995)", "345", "Norman", "Blaze", "1018 N LIBERTY ST" ]
+, [ "row-55in~zbap-dj2v", "00000000-0000-0000-B88A-8918F99B68BB", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.066727980201 29.979051905286)", "154", "Albert", "Walters", "1812 N MIRO ST" ]
+, [ "row-8kre_28m8~uyty", "00000000-0000-0000-9350-559AC35DF3AC", 0, 1516826633, null, 1516826633, null, "{ }", null, "430", null, null, null ]
+, [ "row-p6i2_wnqc~dypy", "00000000-0000-0000-4001-57AE5A7C4BDF", 0, 1516826633, null, 1516826633, null, "{ }", null, "429", null, null, null ]
+, [ "row-59ia-qm8h~xhr6", "00000000-0000-0000-3AD8-27E4C7796BD8", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.053741025876 29.963785569474)", "279", "Jack \"Papa\"", "Laine", "2424 CHARTRES ST" ]
+, [ "row-msna_8grd.6j8c", "00000000-0000-0000-8734-B2CA3EE8C00E", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.016775051408 29.974128427696)", "109", "\"Kidneystew\"", "Mason", "2226 LIZARDI ST" ]
+, [ "row-zbd7_5k7f-ui6f", "00000000-0000-0000-F20C-420C1D7B4557", 0, 1516826633, null, 1516826633, null, "{ }", null, "449", null, null, null ]
+, [ "row-tdiq-guqe.drea", "00000000-0000-0000-5B9C-E7C070532791", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.063890915443 29.976247081522)", "362", "Milfred", "Alexander", "1806 N PRIEUR ST" ]
+, [ "row-aggd_ky3q-79bc", "00000000-0000-0000-C6CA-F92D2CE08356", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.06968463706 29.975717530877)", "97", "Peter", "Du Conge", "2029 LAPEYROUSE ST" ]
+, [ "row-vcgx_ivqn-xnuy", "00000000-0000-0000-407E-959569D53F57", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062429998226 29.972348969886)", "164", "Louis", "Barbarin", "1723 N ROBERTSON ST" ]
+, [ "row-6qz9_fagc~qa6h", "00000000-0000-0000-B9EC-30E344C00719", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.054900701819 29.98213795429)", "171", "Israel", "Gormann", "2457 N ROCHEBLAVE ST" ]
+, [ "row-bra3_whug.4fdd", "00000000-0000-0000-972F-BA6099F7978C", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.096816354383 29.968605647425)", "246", "Audubon", "Halliday", "318 S CLARKE ST" ]
+, [ "row-5wbc-37jr-krps", "00000000-0000-0000-FD51-4D59BA019DD5", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.060120617132 29.978917801827)", "424", "Hypolite", "Charles", "2123 TOURO ST" ]
+, [ "row-stw8.t37b-ahnd", "00000000-0000-0000-5BF0-CCAA13DF2E4E", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.108534480006 29.937641388836)", "239", "Maximillan", "Fink", "2530 ROBERT ST" ]
+, [ "row-q9i3~ba7f.kuvm", "00000000-0000-0000-2F17-54F5855E5E73", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.053232456634 29.978131693131)", "291", "Alcide \"Yellow\"", "Nunez", "2006 ST ROCH AVE" ]
+, [ "row-65j7-hjqe_i4iu", "00000000-0000-0000-A380-8C60F90D71FB", 0, 1516826633, null, 1516826633, null, "{ }", null, "464", null, null, null ]
+, [ "row-6dyk_4z4c.cpxf", "00000000-0000-0000-8965-56C9C69A2598", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.081796206122 29.965847881813)", "213", "George", "Dedroit", "2404 CONTI ST" ]
+, [ "row-ehih_hp3n-prxh", "00000000-0000-0000-CE98-218EEAF4AF0D", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062378555294 29.98200944244)", "274", "Adolph", "Alexander, Jr.", "2421 ST ANTHONY ST" ]
+, [ "row-34ui-ab68-2bc7", "00000000-0000-0000-CB28-34A1C48F691B", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.086472459626 29.962430078298)", "221", "Santo", "Giuffre", "2507 PALMYRA ST" ]
+, [ "row-wdsy_prdp_7w3z", "00000000-0000-0000-D1D5-959DB247877F", 0, 1516826633, null, 1516826633, null, "{ }", null, "197", "Audubon", "Halliday", "2237 DRYADES ST" ]
+, [ "row-ktcd.5v9n_94s8", "00000000-0000-0000-1CFD-BF2CBCE968BC", 0, 1516826633, null, 1516826633, null, "{ }", null, "418", null, null, null ]
+, [ "row-g5v2-bidj-gaw2", "00000000-0000-0000-0493-9F73D3D14C43", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.076218245708 29.969629021528)", "286", "Lorenzo", "Tio, Jr.", "2216 ST PHILIP ST" ]
+, [ "row-i5pk_kenm-gvg7", "00000000-0000-0000-2B91-6FC082618C58", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.084974041872 29.939380288114)", "82", "Lewis", "Jones", "2113 JACKSON AVE" ]
+, [ "row-jdn8_a3cv~5jpm", "00000000-0000-0000-2943-3EFE8DF1E9FB", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.070270097402 29.974844855082)", "91", "Emile \"Mealie\"", "Barns", "2021 LAHARPE ST" ]
+, [ "row-d4e2~27up_9ydp", "00000000-0000-0000-245F-2E09448864C8", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.089869352892 29.969029681443)", "102", "Leonard A.", "Bayersdorffer", "3019 IBERVILLE ST" ]
+, [ "row-kaq4.sbua.usxv", "00000000-0000-0000-8D8A-6EE12B8880F9", 0, 1516826633, null, 1516826633, null, "{ }", null, "440", "Lorenzo", "Tio, Jr.", "2205 ST PETER ST" ]
+, [ "row-fjaq_gs9y_4pib", "00000000-0000-0000-5B4F-4BDC9AB60E8A", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.05372602372 29.971366610466)", "270", "Joseph John", "Davilla", "1326 SPAIN ST" ]
+, [ "row-wcuq.yugq.br7r", "00000000-0000-0000-B91F-B2E2E427C215", 0, 1516826633, null, 1516826633, null, "{ }", null, "387", "George", "Dedroit", "44.5 S MIRO ST" ]
+, [ "row-3d2a~5iha_rxhu", "00000000-0000-0000-67A3-3C917A31DA98", 0, 1516826633, null, 1516826633, null, "{ }", null, "407", null, null, null ]
+, [ "row-kfu9.s2as_aei6", "00000000-0000-0000-B9B1-21E383D0B74B", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.065875545516 29.974682677254)", "205", "Isadore J.", "Barbarin", "1722 NEW ORLEANS ST" ]
+, [ "row-t4s2.gfd3_3w93", "00000000-0000-0000-970B-05D52AB78E9E", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.104906414597 29.933567883692)", "25", "Willie", "Humphrey", "2315 CADIZ ST" ]
+, [ "row-4xi6.juqr_mjya", "00000000-0000-0000-589E-9D0D22B5BB94", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.07304658681 29.965014694788)", "399", "Louis", "Barbarin", "1720 ST ANN ST" ]
+, [ "row-8xji_r47k~avwx", "00000000-0000-0000-145D-BFE15BB34D44", 0, 1516826633, null, 1516826633, null, "{ }", null, "446", null, null, null ]
+, [ "row-e9td~45mj~9bbd", "00000000-0000-0000-6EB5-B8F9D5D96272", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.063704050042 29.971477967433)", "196", "Lester", "Santiago", "1637 N VILLERE ST" ]
+, [ "row-yygn.u9fr.jjqd", "00000000-0000-0000-1CE4-F1EAD3C22A9A", 0, 1516826633, null, 1516826633, null, "{ }", null, "420", null, null, null ]
+, [ "row-94gq.utja_a8dd", "00000000-0000-0000-F142-075527830303", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.061160806225 29.977958554791)", "374", "Charles", "Bocage", "2723 PAUGER ST" ]
+, [ "row-8ya7.z5az_bxaj", "00000000-0000-0000-B093-9FAC8EC95F01", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.132049744967 29.93414179217)", "230", "Mahalia", "Jackson", "7411 PITT ST" ]
+, [ "row-e5x8~fcw7.47zu", "00000000-0000-0000-AF57-1B9F29730273", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.067777924154 29.974392240637)", "95", "John P.", "Dave", "1821 LAPEYROUSE ST" ]
+, [ "row-7db4-m348_y6zq", "00000000-0000-0000-091F-280F4DDCDCD4", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.083282645295 29.937244018254)", "340", "Richard", "Batiste", "1915 JACKSON AVE" ]
+, [ "row-cku8~pr79_vutd", "00000000-0000-0000-C8D9-BC289F1334B7", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.061366411591 29.967647879291)", "272", "Ricard", "Alexis", "1115 ST ANTHONY ST" ]
+, [ "row-3imr-mfph~cudk", "00000000-0000-0000-E094-7B5727B79A1E", 0, 1516826633, null, 1516826633, null, "{ }", null, "419", null, null, null ]
+, [ "row-3z63.zubj.8ru2", "00000000-0000-0000-58E3-BC194E41B858", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.061710540683 29.972315461445)", "356", "Louis", "Barbarin", "1813-15 N ROBERTSON ST" ]
+, [ "row-476c-7vs3.gct2", "00000000-0000-0000-666A-6FBB9CBFE89B", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.059229035296 29.971264029617)", "296", "Bernard", "Cinquemani", "1337 TOURO ST" ]
+, [ "row-titq_7i7k.cmk5", "00000000-0000-0000-4698-28462BBC7EF8", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.083720556458 29.9351595081)", "234", "Lee", "Collins", "1816 PHILIP ST" ]
+, [ "row-fs2m-bb22_t6mb", "00000000-0000-0000-B025-4A66761E0F7A", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.079106783595 29.961473613206)", "332", "Edward", "Brazile", "1935 IBERVILLE ST" ]
+, [ "row-hzq5~ebb8~z5x3", "00000000-0000-0000-58F4-C229BD167D72", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.066405411411 29.975084691565)", "370", "Peter", "Du Conge", "1657 N ROMAN ST" ]
+, [ "row-f53f~h72g~y2sd", "00000000-0000-0000-390C-4082332C5CA1", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.096952724249 29.968994947212)", "219", "Leo", "Bentin", "3500 PALMYRA ST" ]
+, [ "row-m28h~zm5m-a7ma", "00000000-0000-0000-BB14-F86D587B4238", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.050323007971 29.971866348999)", "1", "Alcide \"Yellow\"", "Nunez", "1340 ARTS ST" ]
+, [ "row-kf57-ybcu.g833", "00000000-0000-0000-F34C-EF0AB74F6113", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.07767479692 29.967662869991)", "217", "George", "Filhe", "2209 ORLEANS ST" ]
+, [ "row-q4ca~hxzg.zf6x", "00000000-0000-0000-16D1-B25E44C6FC2D", 0, 1516826633, null, 1516826633, null, "{ }", null, "448", null, null, null ]
+, [ "row-nfu9.9vi6~em6a", "00000000-0000-0000-9165-95F7EA66F368", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.035474399116 29.966272085806)", "6", "John", "Daverede", "1118 BARTHOLOMEW ST" ]
+, [ "row-wndi~7v65~795b", "00000000-0000-0000-E894-26B62201A597", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.072552017224 29.965988145981)", "319", "Mc Neil", "Breaux", "1718 DUMAINE ST" ]
+, [ "row-89mb-zynj.snuf", "00000000-0000-0000-031C-91215542F614", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.101163239555 29.972267248107)", "261", "Andrew", "Broekhoven", "239 S PIERCE ST" ]
+, [ "row-xa3a.pfxk_t8rv", "00000000-0000-0000-EE30-8601DEFF54A5", 0, 1516826633, null, 1516826633, null, "{ }", null, "450", null, null, null ]
+, [ "row-sv4u.gaza~w3ap", "00000000-0000-0000-CC0B-35D03B6F3371", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.069600096242 29.972492352471)", "50", "Armand J.", "Piron", "1818 COLUMBUS ST" ]
+, [ "row-h3x6_vu4c-y46q", "00000000-0000-0000-6A91-CA14AB682181", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.073191576261 29.963703949906)", "280", "Louis", "Bernard", "1629 ST PETER ST" ]
+, [ "row-x5im-n62n-ersc", "00000000-0000-0000-0B24-F42190A08D7A", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.079324705697 29.966804448237)", "155", "Paul (Adolphe Paul)", "Barbarin", "606 N MIRO ST" ]
+, [ "row-88gq~25r4-9xdn", "00000000-0000-0000-B8C9-E16F7B11F217", 0, 1516826633, null, 1516826633, null, "{ }", null, "425", null, null, null ]
+, [ "row-3rn8-ndn5_3kzm", "00000000-0000-0000-699A-492BEAD0C9BD", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.087240519758 29.968510682383)", "11", "Dallas", "Burroughs", "2803 BIENVILLE AVE" ]
+, [ "row-jr5b_vqd5~7nps", "00000000-0000-0000-B7F9-C2B1B91274AB", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.081796206122 29.965847881813)", "244", "Johnny", "Dedroit", "2404 CONTI ST" ]
+, [ "row-339i_76ek-2npv", "00000000-0000-0000-0541-0727F2798D76", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.128333716575 29.942107534625)", "19", "Rudolph \"Rudy\"", "Brunies", "7612 BURTHE ST" ]
+, [ "row-nyvh-d25w-m57c", "00000000-0000-0000-B1F3-E3945D600A53", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.087052225779 29.96702302965)", "79", "Emile \"Stalebread\"", "LaCoume", "2723 IBERVILLE ST" ]
+, [ "row-ruvd.ws7q_amaa", "00000000-0000-0000-63EA-B0193BD0A888", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062060637367 29.966265368615)", "88", "Walter", "deCou", "1007 KERLEREC ST" ]
+, [ "row-hqyb~qk2g.g9f8", "00000000-0000-0000-1F1C-03D7E972522A", 0, 1516826633, null, 1516826633, null, "{ }", null, "127", "Harrison", "Brazley", "1814 AUBR ST" ]
+, [ "row-q5v8_u553_ddfv", "00000000-0000-0000-5691-94C20ACA051F", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062364538947 29.969154841464)", "120", "Joseph", "Bechet", "1716 MARAIS ST" ]
+, [ "row-q36s_h9wr_yaie", "00000000-0000-0000-3141-929C3CCAEC98", 0, 1516826633, null, 1516826633, null, "{ }", null, "437", null, null, null ]
+, [ "row-zp2w_st5e.4cza", "00000000-0000-0000-25C3-1EC3EB44BA8A", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.089439862368 29.938207183341)", "107", "Roy", "Evans", "2608 LASALLE ST" ]
+, [ "row-vt98.p6n3.vf2u", "00000000-0000-0000-BC10-E2A6CD74A163", 0, 1516826633, null, 1516826633, null, "{ }", null, "336", "Issac", "Jackson", "2306 EIGHTH ST" ]
+, [ "row-mpxf-ne67.nws2", "00000000-0000-0000-FB67-E32509643EA9", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.066405411411 29.975084691565)", "376", "Adoph J.", "Duconge, Jr.", "1657 N ROMAN ST" ]
+, [ "row-zk34_x39u~z7g9", "00000000-0000-0000-0EF0-CA5E5A48F2E4", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.110973187501 29.933427638302)", "254", "Al", "Hirt", "5315 S LIBERTY ST" ]
+, [ "row-2kj4_gurh_vctn", "00000000-0000-0000-D42D-5139DB3D6668", 0, 1516826633, null, 1516826633, null, "{ }", null, "325", "John", "Carey", "2204 EIGHTH ST" ]
+, [ "row-uwbk-j8yk.uk94", "00000000-0000-0000-141E-FE67498AAFF0", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.118784460535 29.95296693959)", "360", "Leon", "Verges", "46-A NERON PL" ]
+, [ "row-pebq.dpbp_hup5", "00000000-0000-0000-E369-A17D9657EA92", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062305703964 29.971200571347)", "191", "Emile", "Bigard", "1726 N VILLERE ST" ]
+, [ "row-d47h.th79~kjbw", "00000000-0000-0000-F271-236EBF6C261E", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.072532891258 29.965974922866)", "260", "Alfred \"Alf\"", "Guichard", "1714 DUMAINE ST" ]
+, [ "row-7b74~9v3x-bvc3", "00000000-0000-0000-C0F2-2639E52AC1D8", 0, 1516826633, null, 1516826633, null, "{ }", null, "434", null, null, null ]
+, [ "row-cz6m-ry75_7gr3", "00000000-0000-0000-CACB-9A8ABE92F5E8", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.083241788294 29.955350216868)", "380", "Willis", "Joseph", "1921 PERDIDO ST" ]
+, [ "row-eq6f.snh8~74tx", "00000000-0000-0000-F01F-35C1E753EAB7", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.0639869602 29.977563988912)", "140", "Manuel", "Callier", "1821 N JOHNSON ST" ]
+, [ "row-g6gi.qepa-qd63", "00000000-0000-0000-DD1C-8F31ECE588B6", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.083469575875 29.964198938212)", "76", "Joseph", "Bayersdorffer", "2404 IBERVILLE ST" ]
+, [ "row-sgym.cu46.9n7c", "00000000-0000-0000-4AE4-61F7B661BFBF", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.087465764274 29.933800285712)", "52", "Joseph \"King\"", "Oliver", "2715 DRYADES ST" ]
+, [ "row-yr98_f449-6py5", "00000000-0000-0000-2A02-8BA0393AB226", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.09586801078 29.978042143382)", "149", "Louis", "Frere", "615 N PIERCE ST" ]
+, [ "row-n32c.jdnq.9iur", "00000000-0000-0000-CF2C-B7CC8E460B2E", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.068279215613 29.970356964433)", "133", "Home", "Eugene", "1439 N CLAIBORNE AVE" ]
+, [ "row-z2zm-x7mb.t3mf", "00000000-0000-0000-C962-8754D02A7FE3", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.069950064626 29.966547938018)", "306", "Jules", "Baptiste", "1604 URSULINES AVE" ]
+, [ "row-itxx~94wd~h58s", "00000000-0000-0000-F5AB-F14FE5B66F91", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.092360950003 29.936971984433)", "400", "Xavier \"Tink\"", "Baptiste", "2411 SIXTH ST" ]
+, [ "row-fdcq~43kw.5igs", "00000000-0000-0000-B698-0BF653AA33B1", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.104931361876 29.970977135495)", "253", "Lucien W.", "Broekhoven", "4315 S CARROLLTON AVE" ]
+, [ "row-jsna~vjnv.c8t7", "00000000-0000-0000-3149-F69E86C077BF", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.073040384823 29.960169594526)", "343", "Martin Joseph", "Gabriel", "417 MARAIS ST" ]
+, [ "row-cmzr~m5k3.2fzd", "00000000-0000-0000-B557-C56920C46E7D", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.060315584007 29.965596070877)", "224", "Lizzie", "Miles", "1508 PAUGER ST" ]
+, [ "row-4wby_dbep.gqiz", "00000000-0000-0000-9E86-BFBC0F4F0714", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.085696876291 29.941419294404)", "84", "Tom", "Zimmerman", "2414 JOSEPHINE ST" ]
+, [ "row-d8b9_jivy.4pkp", "00000000-0000-0000-3216-13F07067778A", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.059534809307 29.971622530048)", "406", "Nelson", "Louis", "1419-21 TOURO ST" ]
+, [ "row-r8iu_4eut_79ps", "00000000-0000-0000-1427-D8C8CC2BAF95", 0, 1516826633, null, 1516826633, null, "{ }", null, "316", "George E.", "Jett", "193 GASQUET ST" ]
+, [ "row-m9is~538c~cnib", "00000000-0000-0000-6721-DE605FE937FA", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.105933065989 29.932671213787)", "309", "Allen Hunter", "Garrdett", "2223 VALENCE ST" ]
+, [ "row-3ffy~99jq.jp3k", "00000000-0000-0000-2476-9B5AE1FF04F4", 0, 1516826633, null, 1516826633, null, "{ }", null, "396", "Raymond", "Baptiste", "346 S SARATOGA ST" ]
+, [ "row-vbm2~xpkm~7b5r", "00000000-0000-0000-D696-E0E68E8DDBD1", 0, 1516826633, null, 1516826633, null, "{ }", null, "128", "Paul", "Sarebresole", "927-29 (225 old) BURGUNDY ST" ]
+, [ "row-r478.2nnb.ttyh", "00000000-0000-0000-51C0-D7AE6936C722", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.104778416441 29.933331899018)", "258", "James B.", "Humphrey", "4525 S LIBERTY ST" ]
+, [ "row-vcn2.zvfd.72sd", "00000000-0000-0000-95C3-8B41BCBE8707", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.064502165665 29.969412795509)", "32", "Albert", "Jiles", "1325 COLUMBUS ST" ]
+, [ "row-tmsh_63v4~bv7r", "00000000-0000-0000-8271-4D4C5F231528", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.06429939833 29.972155858232)", "353", "Vincent", "DeCorte", "1641 N ROBERTSON ST" ]
+, [ "row-ifcg.ds83-hx87", "00000000-0000-0000-461B-546316EAAF76", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.081796206122 29.965847881813)", "243", "Paul", "Dedroit", "2404 CONTI ST" ]
+, [ "row-h48c.gc9u-recr", "00000000-0000-0000-2753-AA596A8AA4FB", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.053841577266 29.963782560214)", "31", "Jack \"Papa\"", "Laine", "2407 CHARTRES ST" ]
+, [ "row-v7cc~fu39.u9ea", "00000000-0000-0000-8893-1FD8CA39812E", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.051144823055 29.968605441842)", "125", "George", "Froeba", "1028 MUSIC ST" ]
+, [ "row-dh7j-8iw2_wf57", "00000000-0000-0000-79B7-6A83E25332EC", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.067422191451 29.963825435841)", "470", "George", "Lewis", "1226 ST PHILIP ST" ]
+, [ "row-9hdd.8xsc.euwa", "00000000-0000-0000-92B1-D9E266516E4F", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.10529587188 29.977849526322)", "323", "Johnny", "Dedroit", "4537 CANAL ST" ]
+, [ "row-dc4c-w38j-awqd", "00000000-0000-0000-AE60-23236D532FD0", 0, 1516826633, null, 1516826633, null, "{ }", null, "463", null, null, null ]
+, [ "row-cnp4.5apv.mix4", "00000000-0000-0000-951E-CBA0A32B1F8C", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.075445200208 29.982888579406)", "137", "Ettore I. Or J.", "Fontana", "1733 N DUPRE ST" ]
+, [ "row-4wrt_4n33~37ac", "00000000-0000-0000-BBA2-5119C4EC8310", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.079947192847 29.961749687316)", "68", "Ashille", "Baquet", "2002 IBERVILLE ST" ]
+, [ "row-x667-u2qb_s4qc", "00000000-0000-0000-C2D2-52418CC39892", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.071078530678 29.964967659453)", "317", "Sylvester", "Hall", "1603 DUMAINE ST" ]
+, [ "row-nkc4.qc39~r2au", "00000000-0000-0000-13FE-AD98100BFA5D", 0, 1516826633, null, 1516826633, null, "{ }", null, "452", null, null, null ]
+, [ "row-4tzb~537g.26mg", "00000000-0000-0000-4D6A-82EC725EA0D4", 0, 1516826633, null, 1516826633, null, "{ }", null, "474", "Louis", "Prima", "1812 ST PETER ST" ]
+, [ "row-puu3.b2pr.erjh", "00000000-0000-0000-457E-2DF1942CCEB3", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.086160014966 29.957565435782)", "401", "Emanuel S.", "Blessey", "542 S GALVEZ ST" ]
+, [ "row-9fnm.x32r~qfmw", "00000000-0000-0000-76E2-73641383EEB7", 0, 1516826633, null, 1516826633, null, "{ }", null, "324", "Lorenzo", "Tio, Sr.", "1723 (217) KERLEREC ST" ]
+, [ "row-95i4.akri~9h89", "00000000-0000-0000-A8FE-5A19291994C5", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.080773438842 29.945457351328)", "395", "Julis", "Barnes, Jr.", "1220 S LIBERTY ST" ]
+, [ "row-gvtj-sz72.h9d4", "00000000-0000-0000-371D-AD71CBB9CBDC", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.06669164978 29.965985419382)", "67", "George", "Lewis", "1319 GOVERNOR NICHOLLS ST" ]
+, [ "row-au5z~84xz~cn7t", "00000000-0000-0000-8118-C7CEBDCB739B", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.082390480611 29.937775881339)", "85", "Edward \"Kid\"", "Ory", "1906 JOSEPHINE ST" ]
+, [ "row-as8a~66vu_rumx", "00000000-0000-0000-7ADD-F1C3A418178A", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.086978519268 29.938566051184)", "398", "Nelson", "Joseph", "2400 S LIBERTY ST" ]
+, [ "row-hbhv_bzqi.aths", "00000000-0000-0000-D23A-71C81E160FEF", 0, 1516826633, null, 1516826633, null, "{ }", null, "382", "Johnny", "Dedroit", "158 PALMYRA ST" ]
+, [ "row-2vsb~8u9z~jkpe", "00000000-0000-0000-E2F7-EFDB6D37782F", 0, 1516826633, null, 1516826633, null, "{ }", null, "444", null, null, null ]
+, [ "row-m6xy_q2cx-tvur", "00000000-0000-0000-9681-CEF5A1D3A2FB", 0, 1516826633, null, 1516826633, null, "{ }", null, "350", "Joseph", "Bosseau", "(old) 70 N ROMAN ST" ]
+, [ "row-yv87.4xym.mrjm", "00000000-0000-0000-956B-25E49FB444F4", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.065525619104 29.974227657991)", "366", "Paul \"Polo\"", "Barnes", "1619 NEW ORLEANS ST" ]
+, [ "row-zypb-c8xv.kj3a", "00000000-0000-0000-1A04-E9A4CB369191", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.130425949049 29.955783012365)", "328", "Wilson", "Cary", "8719 HICKORY ST" ]
+, [ "row-39w6.j3z4_eiji", "00000000-0000-0000-B5DE-6CE4BCFC9F62", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.130218435623 29.951305314586)", "27", "Louis D.", "James", "1431 CAMBRONNE ST" ]
+, [ "row-y2rh_8wu6.cymt", "00000000-0000-0000-ACDE-6295EDDCEB13", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.125399289142 29.955538027969)", "223", "Vance A.", "Gammon", "8326 PANOLA ST" ]
+, [ "row-ip7z.jsmj.f93q", "00000000-0000-0000-C93E-3C5E96BB6B1A", 0, 1516826633, null, 1516826633, null, "{ }", null, "415", null, null, null ]
+, [ "row-urff~89ng~eiwy", "00000000-0000-0000-1B3B-83909BB1BA1A", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.104778416441 29.933331899018)", "265", "William J.", "Humphrey", "4525 S LIBERTY ST" ]
+, [ "row-mehr.xkss~jve5", "00000000-0000-0000-A1DB-62FB503FE95A", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.105032073136 29.933504001867)", "24", "Willard J.", "Humphrey", "2313 CADIZ ST" ]
+, [ "row-84w3_m3bj-3vj2", "00000000-0000-0000-349F-0433FDAEA4BC", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.098816389469 29.937036319107)", "74", "Jacinto", "Assunto", "2621 GENERAL TAYLOR ST" ]
+, [ "row-ifqs_8shd_ctsd", "00000000-0000-0000-E2F8-5B0CA4662B35", 0, 1516826633, null, 1516826633, null, "{ }", null, "375", "Paul", "Dedroit", "158 PALMYRA ST" ]
+, [ "row-vggz-hznz.d2nw", "00000000-0000-0000-2D72-A1308D225C5C", 0, 1516826633, null, 1516826633, null, "{ }", null, "457", null, null, null ]
+, [ "row-s4uv-7ddy.2xqi", "00000000-0000-0000-E6F6-C5F7647F30FF", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.055001925872 29.972850397095)", "119", "Al", "Hirt", "1500 MANDEVILLE ST" ]
+, [ "row-6b6h~mths_i8vc", "00000000-0000-0000-4B7B-ECF6935E1062", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.1103696465 29.956664103152)", "3", "Albert", "French", "3025 AUDUBON ST" ]
+, [ "row-y6at-6rxj_ipf9", "00000000-0000-0000-5FF2-0ACD403D903F", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.096952724249 29.968994947212)", "225", "Henry", "Bentin", "3500 PALMYRA ST" ]
+, [ "row-rbjf-y8v7~fyfh", "00000000-0000-0000-B935-1BD58C687FFE", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.085796457116 29.939793555151)", "386", "Oscar \"Papa\"", "Celestin", "2218 S LIBERTY ST" ]
+, [ "row-k3ad.ppey~geaq", "00000000-0000-0000-2750-1C45EFA15DBE", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.09549741089 29.969384786555)", "248", "var.", "Verges", "203 S JEFFERSON DAVIS PKWY" ]
+, [ "row-76d9~jvk3_g8pm", "00000000-0000-0000-954C-C90278781973", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.069256641168 29.972245167988)", "178", "Ferdinand O.", "Joseph", "1479 N ROMAN ST" ]
+, [ "row-zqb9-etpn~kcgg", "00000000-0000-0000-04BB-D5029F914BCC", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062339866185 29.971563105556)", "190", "Alexan (Alexis?)", "Bigard", "1725 N VILLERE ST" ]
+, [ "row-7dyt-c3vx_wu57", "00000000-0000-0000-3B8A-932ACBBC65D2", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.073561555509 29.977727440923)", "99", "Nelson", "Jean", "2430 LAPEYROUSE ST" ]
+, [ "row-93fr~zxz3-i9xy", "00000000-0000-0000-C758-C4F0516431FF", 0, 1516826633, null, 1516826633, null, "{ }", null, "436", null, null, null ]
+, [ "row-wmw2-6zj3_wgqx", "00000000-0000-0000-05CE-D374F7E13A11", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.080781024073 29.961981182064)", "249", "Alvin", "Alcorn, Sr.", "122 S JOHNSON ST" ]
+, [ "row-3kr6_2mgv-8b62", "00000000-0000-0000-7DC4-EA90F9D5B6BD", 0, 1516826633, null, 1516826633, null, "{ }", null, "180", "Joseph", "Fulco", "1834 DRYADES ST" ]
+, [ "row-cp5h_92db_aaky", "00000000-0000-0000-0678-F8C60F693440", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.102762790822 29.944218001504)", "104", "Johnny", "Dedroit", "4301 S JOHNSON ST" ]
+, [ "row-d7wd-wjpb_7uaz", "00000000-0000-0000-5C68-3B9D44826064", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.065274105769 29.974691758801)", "209", "Louis", "Barbarin", "1723 NEW ORLEANS ST" ]
+, [ "row-zc3y.5bnp~jmfu", "00000000-0000-0000-7F04-DCDB6C271F93", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.060078315921 29.978289031099)", "466", "Charles", "Bocage", "2039 TOURO ST" ]
+, [ "row-uss8.7is8_zvq5", "00000000-0000-0000-643F-F7C8BB0590BF", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.068718375318 29.970716052326)", "129", "James", "Brown", "1440 N DERBIGNY ST" ]
+, [ "row-9mvb-z95e.marz", "00000000-0000-0000-D3D4-1DC8114079B8", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062377444002 29.972355540338)", "194", "Victor", "Gaspard", "1725 N ROBERTSON ST" ]
+, [ "row-s2i4.g6wf~hs9a", "00000000-0000-0000-7D5A-828D54259675", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.128333716575 29.942107534625)", "21", "W. H.", "Brunies, Jr.", "7612 BURTHE ST" ]
+, [ "row-jchk.e8wz_9i6c", "00000000-0000-0000-113A-F37D9C541A27", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.070452565834 29.96822807199)", "66", "Irving", "Fazola (Prestopnik)", "1710 GOVERNOR NICHOLLS ST" ]
+, [ "row-uiyx_jw88_xz8h", "00000000-0000-0000-678B-4709E5349872", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.07373580882 29.965113578658)", "326", "Albert", "Francis", "1731 ORLEANS ST" ]
+, [ "row-6cey.2wb9~6kev", "00000000-0000-0000-DB57-4DD6AB569CBC", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.083773106691 29.960018699817)", "313", "George", "Butz", "308 S GALVEZ ST" ]
+, [ "row-jeyj_f5qw.wpbt", "00000000-0000-0000-9D8A-ECBEFBC4BBA0", 0, 1516826633, null, 1516826633, null, "{ }", null, "454", null, null, null ]
+, [ "row-jum2.juah-4w8q", "00000000-0000-0000-DB70-EFEA600AFCA0", 0, 1516826633, null, 1516826633, null, "{ }", null, "456", null, null, null ]
+, [ "row-mcut-bcau-5phf", "00000000-0000-0000-AB44-1F4CA14D7E7F", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.098356747087 29.940116626554)", "5", "David", "Bailey", "2925 AMELIA AVE" ]
+, [ "row-443z~inwe_f7yn", "00000000-0000-0000-1545-A22CB4DEE236", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.128821146357 29.95580352962)", "169", "Sidney", "Bechet", "8614 COHN ST" ]
+, [ "row-uzjv-ntic_7rke", "00000000-0000-0000-AEF3-A62F8D33739D", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062361356476 29.972174758334)", "161", "Paul (Adolphe Paul)", "Barbarin", "1724 N ROBERTSON ST" ]
+, [ "row-bd75~m73j.yywg", "00000000-0000-0000-9B82-94E3DCAF8AEC", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062364538947 29.969154841464)", "114", "Homer", "Bechet", "1716 MARAIS ST" ]
+, [ "row-ck5e-pgrd_rprg", "00000000-0000-0000-D85F-30905EBA4CBA", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.050155248538 29.963121725533)", "281", "Jack \"Papa\"", "Laine", "538 ST FERDINAND ST" ]
+, [ "row-sq7k-ge9h_wx9e", "00000000-0000-0000-5CB7-588149826B74", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.078008317042 29.96297388287)", "36", "Wallace", "Bernard", "1918 CONTI ST" ]
+, [ "row-8usg~n4er~pwrm", "00000000-0000-0000-636A-530E66D4CA1A", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.0923342514 29.935236360343)", "267", "Doc", "Harlen?", "2232 SEVENTH ST" ]
+, [ "row-pwbp-v646-aa3a", "00000000-0000-0000-E03C-11F21B22A736", 0, 1516826633, null, 1516826633, null, "{ }", null, "341", "Frank", "Amacker", "214 DRYADES ST" ]
+, [ "row-mwqw.ugqg~c7ca", "00000000-0000-0000-4815-84F2070A0FDF", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.071357878764 29.967463931076)", "307", "Lorenzo", "Tio, Sr.", "1722 URSULINES AVE" ]
+, [ "row-rhy9-2g8r-gtar", "00000000-0000-0000-C22E-F432CF50B3A3", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.086485437115 29.938862140564)", "388", "Richard M.", "Jones", "2306 S LIBERTY ST" ]
+, [ "row-sh2n-b72s-zuqm", "00000000-0000-0000-D8E1-C108332DA55B", 0, 1516826633, null, 1516826633, null, "{ }", null, "411", null, null, null ]
+, [ "row-4ncy_9tww.gfkq", "00000000-0000-0000-BEB0-BDCD7D2DD688", 0, 1516826633, null, 1516826633, null, "{ }", null, "443", null, null, null ]
+, [ "row-8bca~dcby_c9u3", "00000000-0000-0000-1674-B4865B837CEE", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.065875545516 29.974682677254)", "215", "Louis", "Barbarin", "1722 NEW ORLEANS ST" ]
+, [ "row-et23.kka2_324v", "00000000-0000-0000-9E95-58C8B1994300", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.069570285198 29.966798041838)", "312", "Alphonse", "Picou", "1601 URSULINES AVE" ]
+, [ "row-b9ez_xzkh-bykv", "00000000-0000-0000-7CF0-1E3CA26274AA", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.060629428017 29.965576119519)", "41", "Edward", "Greisai", "1813 DAUPHINE ST" ]
+, [ "row-ghgb~ta9j.d4bv", "00000000-0000-0000-000D-E8DC258B7662", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.048776931814 29.976441806989)", "182", "Diddie", "Stephens", "2563 N ROMAN ST" ]
+, [ "row-v65f_a3we-gmip", "00000000-0000-0000-35C3-6B72B7895395", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.087248582883 29.933708055488)", "63", "Joseph \"King\"", "Oliver", "2712 DRYADES ST" ]
+, [ "row-nbbz_whbt_9dxa", "00000000-0000-0000-1898-4A0E4E2AA6B2", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.048382677142 29.967260955068)", "390", "Emanuel", "Sayles", "2823 RAMPART ST" ]
+, [ "row-v95m-mg62~pvz2", "00000000-0000-0000-FA3D-D59D4BFB712B", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.068383024622 29.970470348063)", "86", "Reese J.", "Cobette", "1608 KERLEREC ST" ]
+, [ "row-eme2~gkca-47mx", "00000000-0000-0000-8993-B6785F9FBC17", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.068669573089 29.97111945857)", "142", "Sylvester", "Coustaut", "1449 N DERBIGNY ST" ]
+, [ "row-tfg8.a9p2~pahf", "00000000-0000-0000-BF78-2B7839F7E2EE", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.031585543898 29.963345303967)", "231", "Henry", "Ford", "941 POLAND AVE" ]
+, [ "row-6fg3~p5fa-c723", "00000000-0000-0000-C403-5F56715A2473", 0, 1516826633, null, 1516826633, null, "{ }", null, "166", "Edward", "Heintz", "2433 BOURBON ST" ]
+, [ "row-3dup~34ti-8nj5", "00000000-0000-0000-8C3B-313C07A215D2", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.066349417881 29.964503773629)", "352", "George", "Lewis", "1139 URSULINES AVE" ]
+, [ "row-f9dn_sf2t~rr53", "00000000-0000-0000-A89A-15B6AFF9782D", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.053702216142 29.971701441854)", "269", "Emile \"Mealie\"", "Barns?", "1342 SPAIN ST" ]
+, [ "row-rzu2_fa4r-cxjy", "00000000-0000-0000-7262-9B3B18D7D969", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.050693968531 29.964374832693)", "242", "Jack \"Papa\"", "Laine", "632 PORT ST" ]
+, [ "row-vfxm.ampt-7z8i", "00000000-0000-0000-DE36-AB77B71A9659", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.032989518497 29.95994112257)", "383", "Joseph", "Husson", "629 POLAND AVE" ]
+, [ "row-8b5s~gefj-k58v", "00000000-0000-0000-CF65-33EFC99DD230", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.070756898738 29.96442173941)", "55", "Henry", "Julian", "1510 DUMAINE ST" ]
+, [ "row-7riw~exyc_9cug", "00000000-0000-0000-DDB6-E753FA9750A5", 0, 1516826633, null, 1516826633, null, "{ }", null, "378", "George", "Dedroit", "158 PALMYRA ST" ]
+, [ "row-yssc~cpc5.fitx", "00000000-0000-0000-58A9-3D7B776D474B", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.0518563278 29.963749289942)", "45", "Vincent", "DeCorte", "2540 CHARTRES ST" ]
+, [ "row-jizn~hx8z-qu34", "00000000-0000-0000-6B6C-124C69241987", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.07405293362 29.966745243962)", "70", "Clarence", "Gabriel", "1902 DUMAINE ST" ]
+, [ "row-zsuu~2kjt-icaq", "00000000-0000-0000-C76A-6F86ABEC0CC6", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.098247644689 29.947460266665)", "473", "Irvin", "Charles", "3630 WASHINGTON AVE" ]
+, [ "row-tcnf.zif3_h7h7", "00000000-0000-0000-E5F7-F2F9D959F77F", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.09650136562 29.936302531676)", "46", "Gilbert Babb", "Frank", "2515 DELACHAISE ST" ]
+, [ "row-j66g~hetp~5fke", "00000000-0000-0000-E0E5-19B8EE0B2725", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.061615542787 29.976655635837)", "163", "Manuel", "Perez", "1963 N PRIEUR ST" ]
+, [ "row-vjjt-id6u~wp6h", "00000000-0000-0000-44D7-D721CD81F422", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.071216980102 29.964549460071)", "158", "Charles", "Doublet", "828 N ROBERTSON ST" ]
+, [ "row-n5gx~da74.qips", "00000000-0000-0000-BFA3-98C7FFED401F", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.070646967228 29.976534214383)", "146", "Walter", "deCou", "1612 N MIRO ST" ]
+, [ "row-rhsa~6qqz.vwhj", "00000000-0000-0000-215F-BA4E59E9563E", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.104670519016 29.933333922841)", "257", "William E.", "Humphrey", "4523 S LIBERTY ST" ]
+, [ "row-atru-3qcp.5mx7", "00000000-0000-0000-FE54-AC8B43BC9557", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.064711951764 29.972668797735)", "134", "Louis", "Tio", "1634 N CLAIBORNE AVE" ]
+, [ "row-tc57-zhmb_wa9m", "00000000-0000-0000-26C7-6F87867BD955", 0, 1516826633, null, 1516826633, null, "{ }", null, "408", null, null, null ]
+, [ "row-28n8.knej-eavu", "00000000-0000-0000-3320-43A7C44C0512", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.065432269346 29.979989511705)", "187", "Albert", "Jiles", "1918 N TONTI ST" ]
+, [ "row-6j3x_evtg.bjdr", "00000000-0000-0000-7D53-27148AAD1F91", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.024462115886 29.961722525901)", "48", "George \"Kid Sheik\"", "Colar", "939 DESLONDE ST" ]
+, [ "row-8vqp_epur~zqhu", "00000000-0000-0000-186D-2226F046544C", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.103738984635 29.945976189564)", "199", "Nicholas \"Nick\"", "Clesi", "3607 NAPOLEON AVE" ]
+, [ "row-5m7t-pvp9-gmst", "00000000-0000-0000-9B36-CF6990210D56", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.076567764778 29.962282099104)", "335", "Jules", "Duvernay", "1806 CONTI ST" ]
+, [ "row-jnn6~37f9~3cdh", "00000000-0000-0000-D657-520392A339E0", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.073106370895 29.960329778121)", "373", "Ben", "Kelly", "420 N VILLERE ST" ]
+, [ "row-uzr4_5sub~4s3i", "00000000-0000-0000-FDA2-E5ADD086265E", 0, 1516826633, null, 1516826633, null, "{ }", null, "410", null, null, null ]
+, [ "row-uxnq-3eye.tq85", "00000000-0000-0000-731E-F42BCECF0A7D", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.060524598906 29.965580736465)", "42", "George", "Lewis", "1819 DAUPHINE ST" ]
+, [ "row-7zy6-ip5p~w42d", "00000000-0000-0000-7F00-A7D5BD638EFB", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.059322284229 29.967018069757)", "295", "Isadore J.", "Barbarin", "926 TOURO ST" ]
+, [ "row-whwd~rsuq_uy6q", "00000000-0000-0000-BA65-A35ADACCFC32", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.066542448273 29.961893950125)", "311", "Frank P.", "Balma", "1314 DUMAINE ST" ]
+, [ "row-rhc6-smhh-8x8t", "00000000-0000-0000-0A42-193648648565", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.079158077548 29.967162042713)", "384", "Sharkey", "Bonano (Joseph G.", "631 N MIRO ST" ]
+, [ "row-z4mj-pyf7~jkf8", "00000000-0000-0000-6937-874EC069DAEC", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062305703964 29.971200571347)", "192", "Ulysses", "Bigard", "1726 N VILLERE ST" ]
+, [ "row-pa8u_b965.dvai", "00000000-0000-0000-E1FE-DFB98854ABA6", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.089928040798 29.96967347418)", "28", "Lester", "Bouchon", "3034 BIENVILLE AVE" ]
+, [ "row-xjkn~z4i6-msig", "00000000-0000-0000-9686-A15BBC70D98B", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.081206140301 29.937195906363)", "2", "Moses P.", "Correa", "2023 BARONNE ST" ]
+, [ "row-iw4f.m98a~k7xx", "00000000-0000-0000-2B43-280C7599A478", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.087621054705 29.946997396935)", "302", "Percy", "Anderson", "2929 THALIA ST" ]
+, [ "row-82rh~x29w_p2jx", "00000000-0000-0000-9477-9447F9D12345", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.07248592449 29.967864928379)", "185", "George \"Creole George\"", "Guesnon", "1016 N ROMAN ST" ]
+, [ "row-kq95~6xpc_7jdy", "00000000-0000-0000-B0BE-11159DD04992", 0, 1516826633, null, 1516826633, null, "{ }", null, "453", null, null, null ]
+, [ "row-ua3h-zjrh.rgef", "00000000-0000-0000-EBFE-927D6AE6BB1D", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.098816389469 29.937036319107)", "72", "Frank", "Assunto", "2621 GENERAL TAYLOR ST" ]
+, [ "row-suhz.wawd.559v", "00000000-0000-0000-4CEF-BF61B95C739A", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.098816389469 29.937036319107)", "75", "Fred", "Assunto", "2621 GENERAL TAYLOR ST" ]
+, [ "row-mkge-mzwy~huiz", "00000000-0000-0000-C9B9-D50A6F70BF5B", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.093055098594 29.939904659767)", "338", "Gilbert Babb", "Frank", "2822 MAGNOLIA ST" ]
+, [ "row-kjik_5iu9-ze3q", "00000000-0000-0000-0A52-E196DB941B15", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.035825919065 29.975600101378)", "347", "Christian", "Scott", "3630-32 N JOHNSON ST" ]
+, [ "row-6ysx-c2vf.ty52", "00000000-0000-0000-A3C9-E9F1D1F4C6D1", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.07562112828 29.972451283503)", "183", "Lizzie", "Miles", "1214 N TONTI ST" ]
+, [ "row-vcxg_fyuu_vgxe", "00000000-0000-0000-2E8C-699870D17906", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.085795566806 29.961975661888)", "222", "Oscar \"Chicken\"", "Henry", "2415 PALMYRA ST" ]
+, [ "row-z44s_rs3e~9ps9", "00000000-0000-0000-C3B0-9CDECCDDE3F5", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.068429124832 29.973515971679)", "93", "Albert", "Glenny", "1817 LAHARPE ST" ]
+, [ "row-kbah.a39i-xm7x", "00000000-0000-0000-23B3-AE821FD3B5C0", 0, 1516826633, null, 1516826633, null, "{ }", null, "447", null, null, null ]
+, [ "row-myih.mfny-8a2e", "00000000-0000-0000-3F0B-200E60F8B53F", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.073723080128 29.960599212459)", "403", "Christopher", "Kelly, Jr.", "421 N VILLERE ST" ]
+, [ "row-dipb-f375_3esw", "00000000-0000-0000-3156-22810A4AA367", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.07435200013 29.960402517785)", "394", "Urban", "Joseph", "324 N ROBERTSON ST" ]
+, [ "row-c9va.56nm_7qan", "00000000-0000-0000-AB08-0909A28E8B89", 0, 1516826633, null, 1516826633, null, "{ }", null, "458", null, null, null ]
+, [ "row-n3kd~ejmy-xp64", "00000000-0000-0000-BEDF-9562656B4137", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.104525309699 29.946274303346)", "207", "Johnny", "Dedroit", "3624 NAPOLEON AVE" ]
+, [ "row-up8a.s2i4_bbw8", "00000000-0000-0000-1C1D-86711BA10190", 0, 1516826633, null, 1516826633, null, "{ }", null, "393", "Andrew", "Broekhoven", "620 S SARATOGA ST" ]
+, [ "row-n86j.g8kw.yjf2", "00000000-0000-0000-3D1D-4CC2CAE1C9BE", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.093439538444 29.935382119827)", "293", "Warren \"Baby\"", "Dodds", "2313 TOLEDANO ST" ]
+, [ "row-qvb2.y3yf_qpg3", "00000000-0000-0000-EDB2-F17DB065C74C", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.061945930259 29.96910547739)", "118", "Homer", "Bechet", "1730 MARAIS ST" ]
+, [ "row-wjb7~ir5v.9262", "00000000-0000-0000-4B50-E9F55E6926AC", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.072727690385 29.970881405436)", "145", "Arnold", "Depass", "1230 N JOHNSON ST" ]
+, [ "row-m362~h2q8-u9xk", "00000000-0000-0000-7399-DF819876B4FC", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.066603930144 29.966764800096)", "9", "Manuel", "Crusta", "1324 BARRACKS ST" ]
+, [ "row-y658_23q4_htjk", "00000000-0000-0000-128D-57F14AA93363", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.035268118408 29.963044289938)", "13", "Seigfried", "Christenson", "4034 BURGUNDY ST" ]
+, [ "row-fwhg.2rcp-sm8m", "00000000-0000-0000-D5C0-60B23C64F391", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.060695754589 29.96456814183)", "15", "Alcide \"Yellow\"", "Nunez", "1416 BOURBON ST" ]
+, [ "row-mnt3~nms8.zztx", "00000000-0000-0000-28F3-817A5F404768", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.063601909191 29.971433650792)", "201", "Louis", "Cotrell, Sr.", "1639 N VILLERE ST" ]
+, [ "row-e9i8~6we3~5246", "00000000-0000-0000-A4A6-401368F30215", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.088430801588 29.939099685174)", "108", "Abbey \"Chinee\"", "Foster", "2433 LASALLE ST" ]
+, [ "row-64mt-pszj.naxq", "00000000-0000-0000-7D6D-B43A2C3A5098", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.079947192847 29.961749687316)", "69", "Theogene V.", "Baquet", "2002 IBERVILLE ST" ]
+, [ "row-cdta-nuit-pwj4", "00000000-0000-0000-D8CD-92940C89888C", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.051563617321 29.972833049261)", "132", "Willie", "Guitar(d)", "1440 MUSIC ST" ]
+, [ "row-655v_nuxs.3g3g", "00000000-0000-0000-4EF7-10DE2A7349DA", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.09178424128 29.949109352944)", "397", "Andrew", "Anderson", "1416 S JOHNSON ST" ]
+, [ "row-bkw7.dznx_fm4k", "00000000-0000-0000-597C-B9401D719340", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.08093040454 29.965366778565)", "37", "Martin (Manuel)", "Gabriel", "2303 CONTI ST" ]
+, [ "row-hv3j_2ntk_zpcu", "00000000-0000-0000-100C-4093184ABB68", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.100681739393 29.93482189229)", "123", "Louis A.", "Coleman", "2412 MILAN ST" ]
+, [ "row-djix-eq8i_9fvr", "00000000-0000-0000-64B5-D3A8BBD519B9", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.104778416441 29.933331899018)", "255", "Jim", "Humphrey", "4525 S LIBERTY ST" ]
+, [ "row-87sp-bx7u.msaf", "00000000-0000-0000-61B8-A7A5B864423F", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062305703964 29.971200571347)", "193", "Emile", "Bigard", "1726 N VILLERE ST" ]
+, [ "row-9ssf-sq9h~5fqu", "00000000-0000-0000-AF21-5042976F3958", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.067278226564 29.974744018611)", "218", "Albert", "Jiles", "1816 ONZAGA ST" ]
+, [ "row-mdga-zcde_nn5v", "00000000-0000-0000-0B27-473E4F8CD6CE", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.130425949049 29.955783012365)", "329", "Cazzy", "Cary", "8719 HICKORY ST" ]
+, [ "row-6u4r_uc59~usek", "00000000-0000-0000-4EFF-B9C312FC96D1", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.069687167671 29.973504784785)", "153", "Louis", "Barbarin", "1523 N PRIEUR ST" ]
+, [ "row-qvi2.vefc~kxue", "00000000-0000-0000-7845-B159A1A593A8", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.069155080757 29.976028236005)", "220", "Osceola A.", "Blanchet", "2018 ONZAGA ST" ]
+, [ "row-ngum~ckvp~84e9", "00000000-0000-0000-7B68-EFC88EB77F4A", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.072311273276 29.966578882648)", "135", "Paul (Adolphe Paul)", "Barbarin", "924 N DERBIGNY ST" ]
+, [ "row-k2is-5e28_sgs4", "00000000-0000-0000-BEBE-B81733B29A16", 0, 1516826633, null, 1516826633, null, "{ }", null, "247", "Thomas \"Mutt\"", "Carey", "2242 DRYADES ST" ]
+, [ "row-fr7p_jcdv.ps9n", "00000000-0000-0000-167B-CF020A8C7E69", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.058772447197 29.966244386177)", "12", "William", "Bolman", "2008 BURGUNDY ST" ]
+, [ "row-k6xd_e2d2-zwii", "00000000-0000-0000-7B95-65EA241EA635", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.100671692559 29.938864153994)", "126", "William \"Wild Bill\"", "Mathews", "2821 MILAN ST" ]
+, [ "row-s2ju_44ma-8ui5", "00000000-0000-0000-2194-AB8877731AB0", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062375973412 29.971968856222)", "168", "Danny", "Barker", "1722 N ROBERTSON ST" ]
+, [ "row-yhkn.3v84_ybvv", "00000000-0000-0000-8569-314E7811519B", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.079800224066 29.968005970271)", "372", "McNeal J.", "Breaux", "665 N TONTI ST" ]
+, [ "row-sa84_4r2x.g2qn", "00000000-0000-0000-68F6-0812CB55C86D", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.066405411411 29.975084691565)", "361", "Earl", "De Conge", "1657 N ROMAN ST" ]
+, [ "row-7ant.jb85_x9v3", "00000000-0000-0000-078D-FFA22E9758BC", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.094370056437 29.935147531018)", "112", "Lee", "Collins", "2319 LOUISIANA AVE" ]
+, [ "row-qzm3-3t9z.dp7y", "00000000-0000-0000-882D-05CC0DE27430", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.07271330151 29.960823438037)", "465", "Frank", "Ahaynou", "1430 ST LOUIS ST" ]
+, [ "row-yh9w.fgs3.phuk", "00000000-0000-0000-92AF-BE2BA94760D9", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.06127531767 29.964950976597)", "40", "John S.", "Bentin", "1416 DAUPHINE ST" ]
+, [ "row-f3hr~j6d6_sgb3", "00000000-0000-0000-E3E7-C4BAB84B96A8", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.091932129472 29.941229246752)", "51", "Albert", "Chambers", "2616 CLARA ST" ]
+, [ "row-qhiy_e27h_96gw", "00000000-0000-0000-AB58-FBFD49AB32A9", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.050663139734 29.964471316968)", "232", "Charles", "Christian", "634 PORT ST" ]
+, [ "row-fwfm-dayt.haj5", "00000000-0000-0000-EF95-4F00C677B1F4", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.078250872902 29.963738229374)", "38", "Frank", "Keeling", "2001 CONTI ST" ]
+, [ "row-cbyh_fikk_2det", "00000000-0000-0000-A7B6-5DCEBCB3134C", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.091346884965 29.93619924629)", "252", "Honore", "Dutrey", "2847 S LIBERTY ST" ]
+, [ "row-bdyz.45n7~pt7t", "00000000-0000-0000-8204-EA6FE28FAB0D", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.060883556972 29.985071749854)", "297", "Walter", "Duvernay", "2654 TOURO ST" ]
+, [ "row-jxbk_twvq-raka", "00000000-0000-0000-7B16-7A76B4ED0059", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.048774538033 29.969329426065)", "237", "John", "Froeba", "1119 PORT ST" ]
+, [ "row-hrn6_aukf_6ktu", "00000000-0000-0000-8D66-9F978D42ED10", 0, 1516826633, null, 1516826633, null, "{ }", null, "462", null, null, null ]
+, [ "row-uh4k_mebi-hpru", "00000000-0000-0000-B31F-3AA5F77147B8", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.079445306172 29.94322345035)", "60", "Henry", "Horton", "2014 ERATO ST" ]
+, [ "row-9c8h~gxfw_559c", "00000000-0000-0000-3B93-B2BFBB1A8A57", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.035505497805 29.964959903614)", "10", "Manuel John", "Mello", "1025 BARTHOLOMEW ST" ]
+, [ "row-y8z7~kmhp~586b", "00000000-0000-0000-80CE-711182126460", 0, 1516826633, null, 1516826633, null, "{ }", null, "455", null, null, null ]
+, [ "row-3fez_rc7v_r6dq", "00000000-0000-0000-F98A-CA027CC70278", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.067836159145 29.973928510721)", "100", "Albert", "Jiles", "1806 LAPEYROUSE ST" ]
+, [ "row-zzmk.asxm-fsq7", "00000000-0000-0000-FA62-FED28E4AE472", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.061172908088 29.966486576483)", "14", "Paul", "Sarebresole", "1807 BURGUNDY ST" ]
+, [ "row-6zhg_fcht_fgr6", "00000000-0000-0000-54D2-905A451A1CA7", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062364538947 29.969154841464)", "117", "Leonard", "Bechet", "1716 MARAIS ST" ]
+, [ "row-z2pj.w4wg~yshx", "00000000-0000-0000-6858-9C9AB6760990", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.061650744623 29.965470814472)", "90", "Paul", "Sarebresole", "918 KERLEREC ST" ]
+, [ "row-xn79_7xw4_azbk", "00000000-0000-0000-511B-BC1123F81EFE", 0, 1516826633, null, 1516826633, null, "{ }", null, "412", "Sandorf", "Butts", "404 S FRANKLIN ST" ]
+, [ "row-cn33~ekec.meuy", "00000000-0000-0000-8D8F-6217F2AFC7CC", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.088913592302 29.964836051751)", "43", "Gustav A.", "Borchert", "2718 CLEVELAND AVE" ]
+, [ "row-7g92.9crp~ngap", "00000000-0000-0000-50C2-31621FAD2373", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.053108722771 29.969575062639)", "271", "Richard M.", "Jones", "1125 SPAIN ST" ]
+, [ "row-r3hk-uyq2~3w5x", "00000000-0000-0000-36F9-B18715386A00", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.06581684696 29.974865925133)", "208", "Louis", "Barbarin", "1732 NEW ORLEANS ST" ]
+, [ "row-tpsd_uukq.meda", "00000000-0000-0000-CF1D-63908EA4C9FB", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.071049748448 29.962559718043)", "404", "Alcide", "Frank", "1406 ST PETER ST" ]
+, [ "row-x89v.gga4~6x29", "00000000-0000-0000-5E17-7757D1DB65FF", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.07124893035 29.967389010185)", "303", "Pinac J. \"Pete\"", "Delessups", "1712 URSULINES AVE" ]
+, [ "row-sk4w~ms4j_4gx7", "00000000-0000-0000-2392-012A339BB1C9", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.017730240018 29.971336732764)", "141", "Alex", "Jourdan", "5120 N JOHNSON ST" ]
+, [ "row-ehyz-gues~vumj", "00000000-0000-0000-6AC3-E812AB5A3E54", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.064794940731 29.962089653825)", "288", "Avery", "Howard, Jr.", "923 ST PHILIP ST" ]
+, [ "row-i9qa_82it-siqp", "00000000-0000-0000-5E80-084DEC124B1E", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.060277332042 29.966617699892)", "385", "William J. \"Willie\"", "Hightower", "1627 PAUGER ST" ]
+, [ "row-wkgr_pdvi.bswf", "00000000-0000-0000-71B6-66995F6FA19C", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.086623244741 29.942996086098)", "83", "Johnny", "Dodds", "2613 JOSEPHINE ST" ]
+, [ "row-fpwg.6c3z-nr7d", "00000000-0000-0000-EF9B-488E7004B380", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.082423392137 29.955540930163)", "263", "Emmanuel", "Hall", "538 S ROMAN ST" ]
+, [ "row-z5un.s2r4~sgdq", "00000000-0000-0000-42F8-F04836E57C10", 0, 1516826633, null, 1516826633, null, "{ }", null, "432", null, null, null ]
+, [ "row-248p-3m2v~t777", "00000000-0000-0000-E2CF-8CE6CBA307ED", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.087069754267 29.938806140457)", "62", "Charles \"Buddy\"", "Bolden", "2309 FIRST ST" ]
+, [ "row-cnb7.2986_8cwp", "00000000-0000-0000-AC59-6DFB7CB7006C", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.061279552805 29.972072625021)", "170", "Francis A.", "Hall", "1820 N ROBERTSON ST" ]
+, [ "row-e83w~emga.2ynt", "00000000-0000-0000-3A5A-726565526B76", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.076227602923 29.971755343294)", "186", "Sidney", "Arodin", "1116 N TONTI ST" ]
+, [ "row-bvrt-v2cd-p3bv", "00000000-0000-0000-A105-95EEFB208F33", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.111323043591 29.943095609431)", "264", "Steve", "Loyacano, Jr. (?)", "5701 S CLAIBORNE AVE" ]
+, [ "row-qg7c_qtg7.raxa", "00000000-0000-0000-737D-043D42BB1E2B", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.050693968531 29.964374832693)", "233", "Frank", "Christian", "632 PORT ST" ]
+, [ "row-vh36.m8af.23hn", "00000000-0000-0000-8D1D-BFBBB713E2CF", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.068461333546 29.970943943915)", "136", "Sylvester", "Coustaut", "1446 N DERBIGNY ST" ]
+, [ "row-am3q_qp62_78tz", "00000000-0000-0000-6A71-9A2018A61971", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.105032073136 29.933504001867)", "23", "Willie", "Humphrey", "2313 CADIZ ST" ]
+, [ "row-746e.zcw5_szzn", "00000000-0000-0000-A5AB-3F5AB6C11C2C", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.11894642969 29.934572190459)", "216", "\"Kid\"", "Robichaux", "1806 PALMYRA AVE" ]
+, [ "row-wuwe-j3x7.nxsr", "00000000-0000-0000-B8E7-AC79AC6DD36C", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062305703964 29.971200571347)", "189", "Barney", "Bigard", "1726 N VILLERE ST" ]
+, [ "row-grr8_95ma~ekup", "00000000-0000-0000-02C4-4C6815DF2951", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.063292487176 29.97957779731)", "147", "George", "Baquet", "1953 N MIRO ST" ]
+, [ "row-vnh7.kym5~r9b7", "00000000-0000-0000-511F-D1497084B871", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.089975451245 29.930140548034)", "330", "Earl", "Foster", "1712 HARMONY ST" ]
+, [ "row-kfwp.6b4f-wc9s", "00000000-0000-0000-CC18-EF991A1F5509", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.035825919065 29.975600101378)", "348", "Donald", "Harrison, Jr.", "3630-32 N JOHNSON ST" ]
+, [ "row-sbh2_w9sg.6xz9", "00000000-0000-0000-361F-71DC030B740C", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.070628564217 29.965154876414)", "172", "Charles", "Doublet", "912 N ROBERTSON ST" ]
+, [ "row-swee-whii~j3mw", "00000000-0000-0000-87C4-E108A2D61A66", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.087253791445 29.947488599755)", "245", "Andrew", "Anderson", "1304 S CLAIBORNE AVE" ]
+, [ "row-sxnz.xs4d.va6i", "00000000-0000-0000-E5D1-9516F33D6E34", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.075081661661 29.975087443524)", "87", "Anthony J. \"Tony\"", "Dalmado", "2402 KERLEREC ST" ]
+, [ "row-zqin.hy8u-6mkx", "00000000-0000-0000-C48F-864584A9B585", 0, 1516826633, null, 1516826633, null, "{ }", null, "314", "Albert", "Carrol", "1430 GASQUET ST" ]
+, [ "row-k9rs_bd3g-859m", "00000000-0000-0000-FB70-DCBD4427E0CA", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.093892266219 29.945051755181)", "294", "Oscar \"Chicken\"", "Henry", "3127 THIRD ST" ]
+, [ "row-r93u.wdsy~7spm", "00000000-0000-0000-4BB2-A66DCAA2A70C", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.080512159925 29.970698331489)", "139", "Edward \"Different\"", "Ory", "818 N DORGENOIS ST" ]
+, [ "row-7h7f-m972~aeun", "00000000-0000-0000-2D53-671EC9E52E26", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.068226380607 29.972215187563)", "57", "Lorenzo", "Tio, Jr.", "1715 COLUMBUS ST" ]
+, [ "row-n68c_df7k.h5cp", "00000000-0000-0000-ABAC-9FFECCBF7A5A", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.068625161573 29.971251605793)", "131", "Louis", "Cotrell, Sr.", "1455 N DERBIGNY ST" ]
+, [ "row-h5qx-3g3p-fygs", "00000000-0000-0000-3870-E46BC53D3603", 0, 1516826633, null, 1516826633, null, "{ }", null, "422", null, null, null ]
+, [ "row-3fu2.ffhh_xfdb", "00000000-0000-0000-8140-6DD9A0D443BA", 0, 1516826633, null, 1516826633, null, "{ }", null, "334", "Albert", "Dalone", "2222 MELPOMENE ST" ]
+, [ "row-mu7b.6gyt~3s3w", "00000000-0000-0000-436D-2D165DC8B60A", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.081914029924 29.963635775759)", "78", "Frank G.", "Christen", "2225 IBERVILLE ST" ]
+, [ "row-tk7g-hz5p-hr4a", "00000000-0000-0000-EFC1-019A34207742", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.065533882285 29.974318512347)", "364", "Adolph L.", "Alexander", "1637 NEW ORLEANS ST" ]
+, [ "row-87jz~8zjh~qbr8", "00000000-0000-0000-EE87-D4AEB138A1B4", 0, 1516826633, null, 1516826633, null, "{ }", null, "391", "Johnny", "Dedroit", "44.5 S MIRO ST" ]
+, [ "row-if7m.7if8_29ex", "00000000-0000-0000-6EFD-255CBBBDC47E", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.039381282598 29.965115813567)", "33", "Joseph", "Gausephol", "940 CONGRESS ST" ]
+, [ "row-tac2~gyvz_8ymq", "00000000-0000-0000-F27B-63B7FD609936", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.125955813111 29.940562376353)", "26", "Paul", "Dedroit", "7319 BURTHE ST" ]
+, [ "row-zxem~aegw_evbt", "00000000-0000-0000-B9F0-218DA46D765E", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.087201958292 29.934339245485)", "65", "Gilbert B. \"Babb\"", "Frank", "1917 FOURTH ST" ]
+, [ "row-3gx2-ydae.vk7j", "00000000-0000-0000-E0E0-BEFE2466C505", 0, 1516826633, null, 1516826633, null, "{ }", null, "471", "Henry", "Ragas", "1018 ST CLAUDE AVE" ]
+, [ "row-zujn~dgec_rvjw", "00000000-0000-0000-E8F7-69B85DB98E1B", 0, 1516826633, null, 1516826633, null, "{ }", null, "435", null, null, null ]
+, [ "row-crnq~mmk4-babx", "00000000-0000-0000-39DB-CB543FC618A8", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.054126061868 29.967441052048)", "110", "Diddie", "Stephens", "931 MANDEVILLE ST" ]
+, [ "row-g4g7-eak5-hrxc", "00000000-0000-0000-CB0B-D6338ABC4061", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.099201737528 29.935916469674)", "122", "George M.", "Hartman", "2511 MARENGO ST" ]
+, [ "row-jhcx-i3dj~zhnz", "00000000-0000-0000-6876-DF510230CDCA", 0, 1516826633, null, 1516826633, null, "{ }", null, "439", null, null, null ]
+, [ "row-5czp.k5ey~js8x", "00000000-0000-0000-BCC1-F45ABE17055D", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.089939336335 29.969955206643)", "214", "Leopold", "Broekhoven", "3110 BIENVILLE AVE" ]
+, [ "row-p2ug_jcef-g9dq", "00000000-0000-0000-B71D-AAD4CD068769", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.079947192847 29.961749687316)", "81", "George", "Baquet", "2002 IBERVILLE ST" ]
+, [ "row-j3eu-hmvq_2bh9", "00000000-0000-0000-EDFC-301618AD4DD1", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.054481330803 29.976113353183)", "181", "Mitchell J.", "Frazier", "2317 N ROMAN ST" ]
+, [ "row-4dqw-dyne.6xb6", "00000000-0000-0000-BFB7-84604B63DC66", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.07628636526 29.965656527527)", "363", "George", "Justin", "629 N PRIEUR ST" ]
+, [ "row-zvxn-79ah.ayz3", "00000000-0000-0000-B090-460C1C477C0E", 0, 1516826633, null, 1516826633, null, "{ }", null, "417", null, null, null ]
+, [ "row-28ah.wsp5~x4zx", "00000000-0000-0000-8471-A343054BC499", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.090434974468 29.931455560549)", "54", "Frank", "DeLandro", "1827 EIGHTH ST" ]
+, [ "row-vizg~ufbz_pmgv", "00000000-0000-0000-4F6F-9B41F8785C60", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.007873105945 29.961512729673)", "299", "Allegretto F.", "Alexander", "1325 TRICOU ST" ]
+, [ "row-qzdz.ba6d.5vma", "00000000-0000-0000-BAA4-323D8865A3B9", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062504115384 29.969222975801)", "339", "Nelson Octave Oak", "Gaspard", "1725 MARAIS ST" ]
+, [ "row-93a8.qxuv-6rjg", "00000000-0000-0000-6A9E-BD506E545B90", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.07439555793 29.958462632036)", "371", "Ernest", "Burden", "214 MARAIS ST" ]
+, [ "row-hz5m.w7c2_nx5m", "00000000-0000-0000-9CFF-0703542031BE", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.060710844396 29.969478531718)", "113", "Ricard", "Alexis", "1833 MARAIS ST" ]
+, [ "row-m4i9.5hf5-vynj", "00000000-0000-0000-CEB8-688CE3FB82B2", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.068976657195 29.964891413102)", "405", "Rene", "Baptiste", "1429 ST PHILIP ST" ]
+, [ "row-tgbw.tcn4-9bhu", "00000000-0000-0000-15AE-2C910B8D42CB", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.064605628757 29.972135592835)", "358", "Albert", "Jiles", "1626 N ROBERTSON ST" ]
+, [ "row-55hi.9pb5~r7sw", "00000000-0000-0000-579B-9B100196A14F", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062595505038 29.971336272362)", "198", "Alcibiade", "Jeanjacques", "1713 N VILLERE ST" ]
+, [ "row-sbqu.gwrq.9fh9", "00000000-0000-0000-3DD4-F9CF411CFA33", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.063404763885 29.965427289743)", "58", "Anthony \"Tony\"", "Almerico", "1026 ESPLANADE AVE" ]
+, [ "row-nqiz_bp28~x8fs", "00000000-0000-0000-B6B6-AEB86BAB8403", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.067686709833 29.972854085244)", "94", "Lorenzo", "Tio Jr? Sr?", "1717 LAHARPE ST" ]
+, [ "row-zdt7~9fdp_37nm", "00000000-0000-0000-15D0-C869BEE7C355", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.05459821519 29.974684806824)", "116", "Al", "Hirt", "1643 MANDEVILLE ST" ]
+, [ "row-cy3i-8ehi_gaz9", "00000000-0000-0000-1074-290B97378E47", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.084816817643 29.952933865992)", "351", "James", "Brown", "725 N DERBIGNY ST" ]
+, [ "row-yqpp.rqnj_3pj4", "00000000-0000-0000-50A6-02AD982FEA44", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.085336355047 29.939814342025)", "105", "Willis", "Joseph", "2131 JACKSON AVE" ]
+, [ "row-bxgr_fxh9.htpm", "00000000-0000-0000-419C-D7971C09504C", 0, 1516826633, null, 1516826633, null, "{ }", null, "467", "Henry", "Bocage", "1941 WHITNEY AVE" ]
+, [ "row-sui9_rhq9~57xa", "00000000-0000-0000-8E53-96F929E0DEE2", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062946071965 29.964638663672)", "7", "Paul", "Sarebresole", "937 BARRACKS ST" ]
+, [ "row-s36u_588v-xvvm", "00000000-0000-0000-629A-2F63EEE10899", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.049729698091 29.967954918287)", "236", "Frank", "Froeba", "1014 PORT ST" ]
+, [ "row-bdet_7ejh_8tv3", "00000000-0000-0000-3134-AFDF504EA74E", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.131284683211 29.937497786866)", "157", "Herman \"Hack\"", "Bartholomew", "360 CHEROKEE ST" ]
+, [ "row-c3h7~8pw7-82c7", "00000000-0000-0000-545C-5FC59EFEBC4E", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.060391446163 29.97242853035)", "165", "Henry", "Glass", "1915 N ROBERTSON ST" ]
+, [ "row-hj8y-surp_rffk", "00000000-0000-0000-622A-34993E4F33C3", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.084079225778 29.967527062101)", "34", "Paul \"Polo\"", "Barnes", "2617 CONTI ST" ]
+, [ "row-bwwc.u7jm.k23e", "00000000-0000-0000-29D5-975ECF3695F7", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.104842249764 29.936203492152)", "262", "Percy", "Humphrey", "4519 S ROBERTSON ST" ]
+, [ "row-7mdw.2hav_bwr2", "00000000-0000-0000-9AF0-8E8C86182E2E", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.066583157289 29.970314213987)", "159", "Albert", "Burbank", "1473 N ROBERTSON ST" ]
+, [ "row-p5ms_ra82.mn5v", "00000000-0000-0000-C7EC-9AAA7E84E5BD", 0, 1516826633, null, 1516826633, null, "{ }", null, "441", null, null, null ]
+, [ "row-nhup-fwu6-vwce", "00000000-0000-0000-3083-57D24882224C", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.072044696672 29.968628259308)", "301", "Theogene V.", "Baquet", "1835 URSULINES AVE" ]
+, [ "row-zy4j~ix47~y2fe", "00000000-0000-0000-9BE0-DAAA01CAC356", 0, 1516826633, null, 1516826633, null, "{ }", null, "431", null, null, null ]
+, [ "row-wswg.3pfw_nt9i", "00000000-0000-0000-1122-8C05D7E082AA", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.085732238704 29.939837644399)", "389", "Emmanuel", "Hall", "2212 S LIBERTY ST" ]
+, [ "row-fe2c.nvwh.c24r", "00000000-0000-0000-4D8D-767F4BC5353B", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.101832856568 29.928416222276)", "200", "Johnny", "Wiggs (Hyman)", "1737 NAPOLEON AVE" ]
+, [ "row-hyj3.4jey~iik8", "00000000-0000-0000-69EB-01A7DF23AF9D", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.082726314037 29.970407275749)", "226", "Ashille", "Baquet", "2656 ORLEANS AVE" ]
+, [ "row-6pam_dfj8-4yhu", "00000000-0000-0000-C103-76808DFC88AD", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.054180097242 29.963157238919)", "111", "Jack \"Papa\"", "Laine", "514 MANDEVILLE ST" ]
+, [ "row-g8rx.tshm~4py8", "00000000-0000-0000-461E-E9F96EAF9ACB", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062551745708 29.983686802896)", "276", "Paul (Adolphe Paul)", "Barbarin", "2605 ST ANTHONY ST" ]
+, [ "row-86b9.9qc8-hyxz", "00000000-0000-0000-1C80-C4D8B575E45E", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.063704050042 29.971477967433)", "195", "John \"Pickey\" \"Pinkey\"", "Brunious", "1637 N VILLERE ST" ]
+, [ "row-ueg3-d424_f2a6", "00000000-0000-0000-D259-764527B8CDF9", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.086987857696 29.938578273723)", "318", "Charles \"Buddy\"", "Bolden", "2302 FIRST ST" ]
+, [ "row-jvq4~q9qu-43uy", "00000000-0000-0000-4EAD-36BBB8282DCE", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.068216187004 29.964461774774)", "283", "Maurice", "Justin, Jr.", "1313 ST PHILIP ST" ]
+, [ "row-5an2~ygn8~pqfu", "00000000-0000-0000-A600-618CC7B09E0A", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.052144874889 29.973820086844)", "290", "Sharkey", "Bonano (Joseph G.", "1541 ST ROCH AVE" ]
+, [ "row-dakn~q68m_yuhq", "00000000-0000-0000-1A9E-2A240D3C6DED", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.068853859154 29.972748296408)", "179", "Albert", "Burbank", "1515 N ROMAN ST" ]
+, [ "row-n6bt-554v_8iau", "00000000-0000-0000-F87D-81C10855BD2F", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.022151390574 29.957756333332)", "130", "Maurice", "Durand", "624 LIZARDI ST" ]
+, [ "row-xfsh_p845_2udg", "00000000-0000-0000-3C53-0D0C6EC87482", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.034992306007 29.972679806671)", "228", "Charles", "Cordilla", "1721 PAULINE ST" ]
+, [ "row-2crc_cqca-hfhs", "00000000-0000-0000-674A-B1C2E9ED5B33", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.07254660573 29.957322987409)", "359", "Gertrude O.", "Dix", "225 N BASIN ST" ]
+, [ "row-dhfv~ecib~gvb2", "00000000-0000-0000-5D14-D3BC85FA863D", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.081914029924 29.963635775759)", "77", "Frederick", "Christen", "2225 IBERVILLE ST" ]
+, [ "row-dhhq~ahzt_3pvv", "00000000-0000-0000-720B-976C86E9631C", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.099986430022 29.972491818076)", "49", "Yvonne M. \"Dixie\"", "Fasnacht", "3922 CLEVELAND AVE" ]
+, [ "row-cugx-kkjf.ah26", "00000000-0000-0000-6590-596F223BE506", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.064676890923 29.971187307291)", "476", "Josiah (Cie)", "Frazier", "1426 ST BERNARD AVE" ]
+, [ "row-2fz6-pin5_yjiu", "00000000-0000-0000-47CF-A41C1F105B34", 0, 1516826633, null, 1516826633, null, "{ }", null, "413", null, null, null ]
+, [ "row-q5m8-ehgf-rqve", "00000000-0000-0000-B312-E06BD150DBE0", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062339866185 29.971563105556)", "202", "Albany \"Barney\"", "Bigard", "1725 N VILLERE ST" ]
+, [ "row-7pgr~355w-45we", "00000000-0000-0000-D65E-1BBC67400FF0", 0, 1516826633, null, 1516826633, null, "{ }", null, "438", null, null, null ]
+, [ "row-u22i-p5bz-jk7t", "00000000-0000-0000-E243-5C75CE32CF6B", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.104778416441 29.933331899018)", "259", "James B.", "Humphries", "4525 S LIBERTY ST" ]
+, [ "row-8gvu_zc73-bnea", "00000000-0000-0000-BBC8-BC436B77BF3A", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.068912172267 29.973898519659)", "357", "Josiah (Cie)", "Frazier", "1556 N PRIEUR ST" ]
+, [ "row-2sgu-west~238e", "00000000-0000-0000-455F-973B0EEB799B", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.073787454624 29.969771993901)", "305", "Laurent", "Dubuclet", "2037 URSULINES AVE" ]
+, [ "row-riid.sysd~qrcm", "00000000-0000-0000-BD8B-EDE0E267C794", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.111843440416 29.934063943909)", "227", "John", "Robichaux", "2130 JEFFERSON AVE" ]
+, [ "row-xi3g.8p9t-6gvk", "00000000-0000-0000-DFD9-7AC4619490B5", 0, 1516826633, null, 1516826633, null, "{ }", null, "331", "Charles", "Brown", "(old) 283 MARAIS ST" ]
+, [ "row-dyv3.mdi8~9u6a", "00000000-0000-0000-5FAE-34B6D6E070A2", 0, 1516826633, null, 1516826633, null, "{ }", null, "433", null, null, null ]
+, [ "row-h8y7~nuvg.8w75", "00000000-0000-0000-C286-69F548AC9250", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.084814387395 29.942910725836)", "59", "Edward (Eddie)", "Atkins", "2321 FELICITY ST" ]
+, [ "row-3533_gwn2-77sx", "00000000-0000-0000-09E6-A81BBCA9ED64", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.117639018182 29.968445723908)", "53", "Johnny", "St. Cyr", "8729 EDINBURGH ST" ]
+, [ "row-9umd_2jnw~kz5s", "00000000-0000-0000-77E0-F444CB7F83F5", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.057044743009 29.962418076191)", "44", "Louis", "Barbarin", "2122 DECATUR ST" ]
+, [ "row-tdva~6mng~d45p", "00000000-0000-0000-080D-3D42F706A137", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.056957826375 29.979506720346)", "150", "Abraham J. \"Chink\"", "Martin", "2216 N MIRO ST" ]
+, [ "row-frb9_28h4-ajig", "00000000-0000-0000-3E0A-B0159A11C23C", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.073676959857 29.967831783925)", "284", "Sidney", "Desvigne", "1920 ST PHILIP ST" ]
+, [ "row-tzag.76hr.et48", "00000000-0000-0000-4C8B-A1D0834AD248", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.064713271952 29.972622431522)", "152", "Lorenzo", "Tio Jr? Sr?", "1632 N CLAIBORNE AVE" ]
+, [ "row-hcm2_te6p-9mrn", "00000000-0000-0000-4490-D8583EE6E3C6", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.083615646589 29.946844099904)", "162", "Frank", "Amacker", "2520 CLIO ST" ]
+, [ "row-igub.q64b-8dqb", "00000000-0000-0000-EC62-414DCAD8ECF3", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.082651989519 29.936690162956)", "103", "Charles", "Fischbin", "1815 JACKSON AVE" ]
+, [ "row-xjkp-pzfz-nzja", "00000000-0000-0000-0A30-83C120FAC280", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.070943538579 29.965365494301)", "173", "Louis", "Cotrell, Sr.", "915 N ROBERTSON ST" ]
+, [ "row-vf5d.yq4m_tr7z", "00000000-0000-0000-A879-991325C323B1", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.016496588817 29.969778843636)", "156", "John", "Handy", "5316 N PRIEUR ST" ]
+, [ "row-rbzx~cmzw-z3ke", "00000000-0000-0000-1CC8-18C39C5E3799", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.117420866097 29.923470487885)", "229", "Arthur \"Monk\"", "Hazel", "1028 ARABELLA ST" ]
+, [ "row-gfgd_4fc6~98iw", "00000000-0000-0000-25F2-CDC92BC51098", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.068754040742 29.971870156294)", "30", "Andrew", "Bailey", "1722 COLUMBUS ST" ]
+, [ "row-k4d2-zzeq~g5zt", "00000000-0000-0000-BA94-EE9C77871611", 0, 1516826633, null, 1516826633, null, "{ }", null, "461", null, null, null ]
+, [ "row-786z~qf75-zndv", "00000000-0000-0000-AE29-A1522040C640", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.071705518997 29.968409772197)", "304", "Anthony", "Doublet", "1821 URSULINES AVE" ]
+, [ "row-2j6x~53z6_jerx", "00000000-0000-0000-123F-0C348CFA6F6A", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.020411294367 29.960831017248)", "174", "Louis", "Givens", "5218 N RAMPART ST" ]
+, [ "row-37pq_fezv-khsi", "00000000-0000-0000-07EC-3020E45F2721", 0, 1516826633, null, 1516826633, null, "{ }", null, "426", "Paul", "Beaulieu", "1226 ST CLAUDE AVE" ]
+, [ "row-uu4x_prjw-6fiw", "00000000-0000-0000-AA00-D9C37F172BDC", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.077909569198 29.96210056373)", "8", "Albert", "Brunies", "1839 BIENVILLE ST" ]
+, [ "row-yaf8~jd6r~yvqh", "00000000-0000-0000-A081-ABE3746411C8", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.035268118408 29.963044289938)", "16", "Seigfried", "Christenson", "4034 BURGUNDY ST" ]
+, [ "row-bsgi_dvcn~faq7", "00000000-0000-0000-39B7-9852CA10BDAC", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.10640511087 29.947771524458)", "101", "Rene", "Netto", "2236 S GAYOSO ST" ]
+, [ "row-bku5~bugs-upb6", "00000000-0000-0000-0B88-8E48E812F48C", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.068044677761 29.968533260886)", "56", "Anthony \"Tony\"", "Denapolis", "1502 ESPLANADE AVE" ]
+, [ "row-bz6q_qq3y~xfz5", "00000000-0000-0000-8028-FE87450D0FCD", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.067305673411 29.966458601127)", "327", "George", "Lewis", "1402 GOVERNOR NICHOLLS ST" ]
+, [ "row-hpum-fxd4-qhnj", "00000000-0000-0000-A911-E2916A3D2828", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.070901631863 29.965557674368)", "160", "Charles \"Sunny\"", "Henry", "925 N ROBERTSON ST" ]
+, [ "row-rm5k.48bm_kwrj", "00000000-0000-0000-5ED9-AF1B1A7489D9", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.06968463706 29.975717530877)", "98", "Adoph J.", "Duconge", "2029 LAPEYROUSE ST" ]
+, [ "row-3c8z-zw7v-ds3f", "00000000-0000-0000-C8F1-EE729E9E81AF", 0, 1516826633, null, 1516826633, null, "{ }", null, "416", null, null, null ]
+, [ "row-txx4-q5qd_9vyt", "00000000-0000-0000-580E-6F2B5EAA3357", 0, 1516826633, null, 1516826633, null, "{ }", null, "349", "Louis", "Arthidore (sic)", "(old) 179 N ROCHEBLAVE ST" ]
+, [ "row-husq_naw4-g557", "00000000-0000-0000-0DAD-FD19498FB3BF", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.075191470816 29.965567155703)", "377", "Lionel", "Bartholomew", "1918 ORLEANS AVE" ]
+, [ "row-kjpw.wfr4_zpps", "00000000-0000-0000-4918-E4B69CB7D9C4", 0, 1516826633, null, 1516826633, null, "{ }", null, "459", null, null, null ]
+, [ "row-dg5x-is4x-zzcw", "00000000-0000-0000-A2DF-A81A74F0DFA8", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.069775116819 29.965653956236)", "282", "Avery \"Kid\"", "Howard", "1515 ST PHILIP ST" ]
+, [ "row-7jpv.rt78~iw4i", "00000000-0000-0000-964F-1D14A3A23728", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.061723823819 29.970554507437)", "469", "Paul", "Sarebresole", "1359 ST ANTHONY ST" ]
+, [ "row-acpw-x956~uked", "00000000-0000-0000-D816-1E98FDC0FA27", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.128333716575 29.942107534625)", "18", "Richard \"Richie\"", "Brunies", "7612 BURTHE ST" ]
+, [ "row-punu_259a.92kp", "00000000-0000-0000-676C-A3CA77856FC6", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.096167138767 29.92918676033)", "379", "Joseph \"Stonewall\"", "Matthews", "1811 PENISTON ST" ]
+, [ "row-j2gn.bxfs.t3jz", "00000000-0000-0000-D691-2B50870A41C5", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062196234904 29.977801390123)", "273", "Manuel", "Perez", "2021 ST ANTHONY ST" ]
+, [ "row-am29.7y4i~dyum", "00000000-0000-0000-7E5E-E1A0515895B0", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.105032073136 29.933504001867)", "20", "Willard J.", "Humphrey", "2313 CADIZ ST" ]
+, [ "row-eweb.zd3r_bm84", "00000000-0000-0000-8A78-AA9EB85EAA02", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.081914029924 29.963635775759)", "80", "Frank T.", "Christen", "2225 IBERVILLE ST" ]
+, [ "row-4s7k-gj4s-j4qv", "00000000-0000-0000-D705-CF229926413A", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.065508393855 29.966033537016)", "4", "Isadore J.", "Barbarin", "1208 BARRACKS ST" ]
+, [ "row-56tu_9r3h-evyj", "00000000-0000-0000-07C8-8B975510719A", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.105360866134 29.935081121759)", "322", "Tom", "Zimmerman", "4605-07 FRERET ST" ]
+, [ "row-3274-ev96.pred", "00000000-0000-0000-7AC9-2F45BDA1B064", 0, 1516826633, null, 1516826633, null, "{ }", null, "414", null, null, null ]
+, [ "row-k77m.h8nd-9vbc", "00000000-0000-0000-048D-52FECAD94934", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.128333716575 29.942107534625)", "22", "Henry", "Brunies, Sr.", "7612 BURTHE ST" ]
+, [ "row-9c8e-gg24_gy2u", "00000000-0000-0000-B01C-4DAF4CA2B885", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.052641080207 29.969222044334)", "278", "Joseph O.", "Julian", "2367 ST CLAUDE AVE" ]
+, [ "row-edz5_jwqg-dy7m", "00000000-0000-0000-6C67-018D225D835D", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.088944437353 29.94280083937)", "235", "Charles", "Bolden", "2719 PHILIP ST" ]
+, [ "row-p2zz_hu6n.cxi4", "00000000-0000-0000-9468-DC45880D2122", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.065875545516 29.974682677254)", "211", "Paul (Adolphe Paul)", "Barbarin", "1722 NEW ORLEANS ST" ]
+, [ "row-3fms_pcmx.amrx", "00000000-0000-0000-379E-E75D0907C0F7", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.058416074081 29.971918091685)", "320", "Ferdinand J. \"Jelly Roll\"", "Morton", "1441-43 FRENCHMEN ST" ]
+, [ "row-xbzd~2ufs-8v5n", "00000000-0000-0000-338B-12047DD6750A", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.103432283772 29.935227364747)", "337", "Minor \"Ram\"", "Hall", "4431 FRERET ST" ]
+, [ "row-ns5z-w63c.jbm9", "00000000-0000-0000-C2F7-EB3C64C9A9A4", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.073360543944 29.967669670778)", "285", "Arnold", "Depass", "1906 ST PHILIP ST" ]
+, [ "row-e36i~wce3.zu5s", "00000000-0000-0000-3C56-567BA5174A06", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.065274105769 29.974691758801)", "203", "Louis", "Barbarin", "1721 NEW ORLEANS ST" ]
+, [ "row-qwkk.it3y_tzq2", "00000000-0000-0000-A76A-D763D413030B", 0, 1516826633, null, 1516826633, null, "{ }", null, "428", null, null, null ]
+, [ "row-bimr~rhtg_9y22", "00000000-0000-0000-50F4-41852D910EEE", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.051837991156 29.982585225253)", "138", "Abraham J. \"Chink\"", "Martin", "2421 MUSIC ST" ]
+, [ "row-w7ui.yhg4_8vu4", "00000000-0000-0000-2F83-E616CF0B7F0B", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.074568427527 29.975252395023)", "175", "Wilfred \"Bill\"", "Bourgeois", "1450 N ROCHEBLAVE ST" ]
+, [ "row-wncd~3cz4.dexm", "00000000-0000-0000-C6BF-343E37E2A131", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.112049263438 29.962829341487)", "212", "George J.", "Guesnon", "8015 OLIVE ST" ]
+, [ "row-siwu_zyr8.82e8", "00000000-0000-0000-8639-0933764FA94F", 0, 1516826633, null, 1516826633, null, "{ }", null, "423", null, null, null ]
+, [ "row-f4wn_9r5y-i6ks", "00000000-0000-0000-09DD-C4EE8E2C9A2A", 0, 1516826633, null, 1516826633, null, "{ }", null, "427", null, null, null ]
+, [ "row-tx8a_h9te_pc9d", "00000000-0000-0000-2E36-F8D377A972E8", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.053454681083 29.973844162965)", "369", "George", "Foy", "2353 N CLAIBORNE AVE" ]
+, [ "row-7kbk-6kkx~3r44", "00000000-0000-0000-AFA1-8EC1EB2A2614", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.058427126855 29.969264788725)", "71", "William", "Bolman", "1136 FRENCHMEN ST" ]
+, [ "row-xrfw.22ii.k26z", "00000000-0000-0000-B33B-5C344F318320", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.099285377963 29.967512324369)", "250", "Jasper", "Hug", "514 S GENOIS ST" ]
+, [ "row-6x9y.rp5t.tguw", "00000000-0000-0000-27D6-6B3ECEB519F7", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.050538863913 29.977386325923)", "210", "Joseph John", "Davilla", "1930-32 ARTS ST" ]
+, [ "row-gbhf~tmkm-vrp4", "00000000-0000-0000-ECEC-7CD5686482C7", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062451051299 29.970327111068)", "308", "Manuel", "Perez", "1715 URQUHART ST" ]
+, [ "row-czq9~6fwz.qr7h", "00000000-0000-0000-F065-561553CD8E72", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.074000251535 29.966211819173)", "177", "F. Joseph", "Bourgeau", "814 N ROMAN ST" ]
+, [ "row-qxwg_weun~rptr", "00000000-0000-0000-1777-9C64CAD5AB45", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.114194252936 29.96273010035)", "64", "Gasper", "Gullotta", "8116 FORSHEY ST" ]
+, [ "row-cz24_qdvg-anck", "00000000-0000-0000-512D-11D3976012FC", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.079921730289 29.937608333418)", "29", "Marcus", "Korn", "1820 BARONNE ST" ]
+, [ "row-7m8b.ibea-n9vc", "00000000-0000-0000-1D03-0FA2FE835333", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.062364538947 29.969154841464)", "115", "Sidney", "Bechet", "1716 MARAIS ST" ]
+, [ "row-w638~dfgk_a26i", "00000000-0000-0000-0FD7-A166A7226553", 0, 1516826633, null, 1516826633, null, "{ }", "POINT (-90.063163240723 29.968549603098)", "472", "Clebert", "Cagnolatti", "1241 ST BERNARD AVE" ]
+ ]
+}

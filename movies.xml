@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+  <movie>
+    <title>Inception</title>
+    <director>Christopher Nolan</director>
+    <year>2010</year>
+  </movie>
+  <movie>
+    <title>Knives Out</title>
+    <director>Rian Johnson</director>
+    <year>2019</year>
+  </movie>
+  <movie>
+    <title>Onward</title>
+    <director>Dan Scanlon</director>
+    <year>2020</year>
+  </movie>
+</movies>
